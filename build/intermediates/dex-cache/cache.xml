@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\singgih\.android\build-cache\ae17d6abd079c762bf485ac05e1b5664db6c93d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3f16e74358c80b2705db7c817ff1e37f0155cc81">
+        <dex dex="D:\WORKS\Android\IMPro-master2\app\build\intermediates\pre-dexed\debug\classes_72c295472eb200d74f9cf7c99877f87ea016542e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\singgih\.android\build-cache\5156d0be42abe255e2484e49120de72a98df538d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="D:\WORKS\Android\IMPro-master2\app\build\intermediates\pre-dexed\debug\classes_ea739cc8f277609a9a9a764b54c88ce5df43cf17.jar" />
+    </item>
+
+</items>

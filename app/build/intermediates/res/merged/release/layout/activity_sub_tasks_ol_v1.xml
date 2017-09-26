@@ -1,0 +1,204 @@
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="left"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+
+                    <TextView
+                        android:text="Id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/id_tasks"
+                        android:gravity="center_vertical"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:background="@android:drawable/editbox_background"
+                        android:hint="Id" />
+                    <TextView
+                        android:text="*Subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:background="@android:drawable/editbox_background"
+                        android:hint="" />
+
+                    <TextView
+                        android:text="Status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                    <EditText android:id="@+id/status"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:background="@android:drawable/editbox_background"
+                        android:entries="@array/android_layout_status" />
+
+
+                    <LinearLayout
+                        android:id="@+id/parent1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/btntanggal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Due Date" />
+
+                        <EditText
+                            android:id="@+id/tanggal"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:textSize="17dp"
+                            android:hint="dd-mm-yyyy"
+                            android:gravity="center"
+                            android:background="@android:drawable/editbox_background"
+                            android:inputType="date" />
+
+                        <TextView
+                            android:id="@+id/btnwaktu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Time" />
+
+                        <EditText
+                            android:id="@+id/waktu"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:drawable/editbox_background"
+                            android:gravity="center"
+                            android:hint="hh-mm"
+                            android:inputType="time"
+                            android:textSize="17dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="Outcome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/outcome"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@android:drawable/editbox_background"
+                        android:entries="@array/android_layout_outcome"
+                        android:layout_weight="3" />
+
+                    <TextView
+                        android:text="Customers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/customers"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:background="@android:drawable/editbox_background"
+                        android:hint="" />
+
+                    <TextView
+                        android:text="Type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@android:drawable/editbox_background"
+                        android:entries="@array/android_layout_type"
+                        android:layout_weight="3" />
+
+                    <TextView
+                        android:text="Description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:background="@android:drawable/editbox_background"
+                        android:gravity=""
+                        android:hint=""
+                        android:inputType="textMultiLine" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.80"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Update Pegawai"
+                        android:id="@+id/buttonUpdate" />
+
+                    <Button
+                        android:layout_marginBottom="52dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hapus Pegawai"
+                        android:id="@+id/buttonDelete" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

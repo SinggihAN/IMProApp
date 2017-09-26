@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itechmandiri.myapplication.Activity.MainActivity" >
+
+    <item
+        android:id="@+id/navigation_help"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/navigation_exit"
+        android:title="Logout" />
+
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/navigation_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:visible="true"
+        android:enabled="true"
+        android:title="Save" />
+
+
+
+</menu>

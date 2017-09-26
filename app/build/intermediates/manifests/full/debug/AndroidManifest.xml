@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.hidroh.calendar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <!-- Required by Calendar Provider -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <!-- Required for weather sync -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:name="io.github.hidroh.calendar.apps.AppController"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name="io.github.hidroh.calendar.activities.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.HomeActivity"
+            android:label=""
+            android:launchMode="singleTop" />
+        <activity android:name="io.github.hidroh.calendar.activities.TaskActivity" />
+        <activity
+            android:name="io.github.hidroh.calendar.activities.Tasks_Activity"
+            android:label="Tasks"
+            android:parentActivityName="io.github.hidroh.calendar.activities.HomeActivity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HomeActivity" />
+        </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.Tasks_Sub_Activity"
+            android:label="Display Tasks"
+            android:parentActivityName="io.github.hidroh.calendar.activities.Tasks_Activity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Tasks_Activity" />
+        </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.Tasks_Add_Activity"
+            android:label="Create Tasks"
+            android:parentActivityName="io.github.hidroh.calendar.activities.Tasks_Activity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Tasks_Activity" />
+        </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.Tasks_List_Draft_Activity"
+            android:label="Draft Tasks"
+            android:parentActivityName="io.github.hidroh.calendar.activities.Tasks_Activity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Tasks_Activity" />
+        </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.Tasks_Detail_List_Draft_Activity"
+            android:label="Detail Draft"
+            android:parentActivityName="io.github.hidroh.calendar.activities.Tasks_Activity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Tasks_Activity" />
+        </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.EditActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <receiver android:name="io.github.hidroh.calendar.weather.WeatherSyncAlarmReceiver" />
+
+        <service android:name="io.github.hidroh.calendar.weather.WeatherSyncService" />
+
+        <activity
+            android:name="io.github.hidroh.calendar.activities.ContactActivity"
+            android:label="Contacts"
+            android:parentActivityName="io.github.hidroh.calendar.activities.HomeActivity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>

@@ -1,0 +1,479 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E6EAED"
+    tools:context="io.github.hidroh.calendar.fragments.HomeFragment"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="#ef5350"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_gravity="top"
+                android:src="@drawable/home_bg1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TableLayout
+                    android:id="@+id/message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginTop="130dp"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*">
+
+                    <TableRow
+                        android:id="@+id/tableRowBtn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/txa5"
+                            android:padding="2dp"
+                            android:text=""/>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_white2"
+                            android:gravity="top"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btnMenu01"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/calendar"
+                                android:layout_gravity="center"
+                                android:padding="1dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/nama"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Calendar"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:layout_marginTop="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#404040" />
+
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:id="@+id/txb5"
+                            android:padding="2dp"
+                            android:text=""/>
+
+                        <LinearLayout
+
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_white2"
+                            android:gravity="top"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btnMenu02"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/megaphone"
+                                android:layout_gravity="center"
+                                android:padding="1dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/nama25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Alerts"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#404040" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txc5"
+                            android:padding="2dp"
+                            android:text=""/>
+
+                        <LinearLayout
+
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_white2"
+                            android:gravity="top"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btnMenu03"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/briefcase"
+                                android:layout_gravity="center"
+                                android:padding="1dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/nama35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Opportunities"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#404040" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txd5"
+                            android:padding="2dp"
+                            android:text=""/>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRowBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/txa"
+                            android:padding="2dp"
+                            android:text=""/>
+
+                        <LinearLayout
+
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_white2"
+                            android:gravity="top"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btnMenu04"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/contract"
+                                android:layout_gravity="center"
+                                android:padding="1dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/nama5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tasks"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#404040" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txb"
+                            android:padding="2dp"
+                            android:text=""/>
+
+                        <LinearLayout
+
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_white2"
+                            android:gravity="top"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btnMenu05"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/business"
+                                android:layout_gravity="center"
+                                android:padding="1dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/nama2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Contacts"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#404040" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txc"
+                            android:padding="2dp"
+                            android:text=""/>
+
+                        <LinearLayout
+
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_white2"
+                            android:gravity="top"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/btnMenu07"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/hotel"
+                                android:layout_gravity="center"
+                                android:padding="1dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/nama3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Customer"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#404040" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txd"
+                            android:padding="2dp"
+                            android:text=""/>
+                    </TableRow>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="15dp"
+                        android:text="Fitur Tambahan"
+                        android:textColor="#000"
+                        android:textSize="14dp"
+                        android:textStyle="bold"/>
+
+
+                    <TextView
+                        android:id="@+id/txd56"
+                        android:padding="0dp"
+                        android:text=""/>
+
+                </TableLayout>
+
+
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="#E6EAED">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center"
+                        android:orientation="horizontal">
+
+
+                        <TableRow
+                            android:id="@+id/tableRowBtn7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal">
+
+                            <TextView
+                                android:id="@+id/txa7"
+                                android:padding="5dp"
+                                android:text=""/>
+
+                            <LinearLayout
+
+                                android:layout_width="130dp"
+                                android:layout_height="90dp"
+                                android:background="@drawable/bg_white2"
+                                android:gravity="top"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btnMenu06"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/gps"
+                                    android:layout_gravity="center"
+                                    android:padding="1dp"
+                                    android:visibility="visible" />
+
+                                <TextView
+                                    android:id="@+id/nama7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Around Me"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#404040" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/txb57"
+                                android:padding="5dp"
+                                android:text=""/>
+
+                            <LinearLayout
+
+                                android:layout_width="130dp"
+                                android:layout_height="90dp"
+                                android:background="@drawable/bg_white2"
+                                android:gravity="top"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btnMenu08"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/business2"
+                                    android:layout_gravity="center"
+                                    android:padding="1dp"
+                                    android:visibility="visible" />
+
+                                <TextView
+                                    android:id="@+id/nama258"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Analytics"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#404040" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/txc58"
+                                android:padding="5dp"
+                                android:text=""/>
+
+                            <LinearLayout
+
+                                android:layout_width="130dp"
+                                android:layout_height="90dp"
+                                android:background="@drawable/bg_white2"
+                                android:gravity="top"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btnMenu09"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/people"
+                                    android:layout_gravity="center"
+                                    android:padding="1dp"
+                                    android:visibility="visible" />
+
+                                <TextView
+                                    android:id="@+id/nama359"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Leads"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#404040" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/txd59"
+                                android:padding="5dp"
+                                android:text=""/>
+
+                            <LinearLayout
+
+                                android:layout_width="130dp"
+                                android:layout_height="90dp"
+                                android:background="@drawable/bg_white2"
+                                android:gravity="top"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btnMenu10"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/barchart"
+                                    android:layout_gravity="center"
+                                    android:padding="1dp"
+                                    android:visibility="visible" />
+
+                                <TextView
+                                    android:id="@+id/nama3599"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Forecasts"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#404040" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/txd592"
+                                android:padding="5dp"
+                                android:text=""/>
+
+                        </TableRow>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_layout_outcome"/>
+    <string-array name="android_layout_status"/>
+    <string-array name="android_layout_type"/>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="time_width">120dp</dimen>
+    <dimen name="vertical_padding">32dp</dimen>
+    <style name="Widget.AppTheme.Drawer">
+        <item name="android:layout_width">400dp</item>
+    </style>
+</resources>

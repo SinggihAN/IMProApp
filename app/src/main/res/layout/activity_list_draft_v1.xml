@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutPencarian"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFF"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:layout_marginTop="52dp"
+            android:id="@+id/etCari"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Search"
+            android:background="@android:drawable/editbox_background"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_marginTop="52dp"
+            android:id="@+id/btnCari"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:drawable/ic_menu_search"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listViewNames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/names">
+
+    </ListView>
+
+
+
+</LinearLayout>

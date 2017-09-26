@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calendar_colors">
+        <item>@color/blue50</item>
+        <item>@color/cyan50</item>
+        <item>@color/green50</item>
+        <item>@color/yellow50</item>
+        <item>@color/red50</item>
+    </string-array>
+
+
+
+    <string-array name="android_layout_status">
+        <item></item>
+        <item>Canceled</item>
+        <item>Complete</item>
+        <item>In progress</item>
+        <item>Not Started</item>
+        <item>On Hold</item>
+    </string-array>
+
+    <string-array name="android_layout_type">
+        <item></item>
+        <item>General</item>
+        <item>In Office</item>
+        <item>Call</item>
+        <item>Visit</item>
+        <item>Negotiation</item>
+        <item>Chat</item>
+    </string-array>
+
+
+    <string-array name="android_layout_outcome">
+        <item></item>
+        <item>Failed</item>
+        <item>Successful</item>
+        <item>Incomplete</item>
+    </string-array>
+</resources>

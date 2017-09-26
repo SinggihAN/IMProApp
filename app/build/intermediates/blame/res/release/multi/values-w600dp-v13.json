@@ -1,0 +1,180 @@
+[
+    {
+        "outputFile": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\arrays.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 50,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 48,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\arrays.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 49,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 46,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\arrays.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 47,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 41,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 41,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 37,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 37,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 38,
+                    "endOffset": 315
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 38,
+                        "endOffset": 137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 320,
+                    "endColumn": 42,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 42,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 363,
+                    "endColumn": 47,
+                    "endOffset": 406
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 47,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 411,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\values-w600dp\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    }
+]

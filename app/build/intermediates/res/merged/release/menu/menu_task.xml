@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itechmandiri.myapplication.Activity.MainActivity" >
+
+    <item
+        android:id="@+id/navigation_help"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/navigation_exit"
+        android:title="Exit" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Add"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_draft"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_delete"
+        android:title="Draft"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

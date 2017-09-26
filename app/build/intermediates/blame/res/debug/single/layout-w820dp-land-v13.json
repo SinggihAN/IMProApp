@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-land-v13\\element_bottom_navigation.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout-w820dp-land\\element_bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-land-v13\\include_activity_main.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout-w820dp-land\\include_activity_main.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-land-v13\\toolbar_main.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout-w820dp-land\\toolbar_main.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-land-v13\\activity_edit.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout-w820dp-land\\activity_edit.xml"
+    }
+]

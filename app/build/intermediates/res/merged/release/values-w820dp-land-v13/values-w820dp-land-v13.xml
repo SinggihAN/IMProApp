@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_layout_outcome"/>
+    <string-array name="android_layout_status"/>
+    <string-array name="android_layout_type"/>
+    <dimen name="calendar_width">392dp</dimen>
+    <dimen name="horizontal_padding">32dp</dimen>
+    <dimen name="margin_form">92dp</dimen>
+    <dimen name="vertical_padding">32dp</dimen>
+</resources>
