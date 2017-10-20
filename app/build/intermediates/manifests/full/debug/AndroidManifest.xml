@@ -114,6 +114,15 @@
             android:parentActivityName="io.github.hidroh.calendar.activities.HomeActivity"
             android:theme="@style/AppTheme2"
             android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.github.hidroh.calendar.activities.OpportunityActivity"
+            android:label="@string/title_activity_opportunity"
+            android:parentActivityName="io.github.hidroh.calendar.activities.HomeActivity"
+            android:theme="@style/MyMaterialTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HomeActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -29,7 +29,6 @@ public class NetworkStateChecker extends BroadcastReceiver {
     private Context context;
     private DatabaseHelperTasks db;
 
-
     @Override
     public void onReceive(Context context, Intent intent) {
 

@@ -32,16 +32,16 @@ public final class R {
         public static final int psts_background_tab_pressed_ripple = 0x7f0d0066;
     }
     public static final class drawable {
-        public static final int psts_background_tab = 0x7f0200b5;
+        public static final int psts_background_tab = 0x7f0200b6;
     }
     public static final class id {
         public static final int bold = 0x7f0f0053;
         public static final int italic = 0x7f0f0054;
         public static final int normal = 0x7f0f0025;
-        public static final int psts_tab_title = 0x7f0f012b;
+        public static final int psts_tab_title = 0x7f0f0132;
     }
     public static final class layout {
-        public static final int psts_tab = 0x7f040059;
+        public static final int psts_tab = 0x7f04005b;
     }
     public static final class styleable {
         public static final int[] PagerSlidingTabStrip = { 0x7f01013e, 0x7f01013f, 0x7f010140, 0x7f010141, 0x7f010142, 0x7f010143, 0x7f010144, 0x7f010145, 0x7f010146, 0x7f010147, 0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b, 0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f01014f };

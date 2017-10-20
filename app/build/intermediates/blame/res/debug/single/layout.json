@@ -60,6 +60,10 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opportunity.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\activity_opportunity.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -270,6 +274,10 @@
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_opportunity.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\content_opportunity.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_add.xml",

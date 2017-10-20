@@ -33,7 +33,7 @@ public class Tasks_List_Draft_Activity extends AppCompatActivity implements View
     * make sure you are using the ip instead of localhost
     * it will not work if you are using localhost
     * */
-	public static final String URL_SAVE_NAME = "http://192.168.0.21:8090/project/db_android/saveName.php";
+	public static final String URL_SAVE_NAME = "http://192.168.0.8/impro/db_android/saveName.php";
 
 	//database helper object
 	private DatabaseHelperTasks db;

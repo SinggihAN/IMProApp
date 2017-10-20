@@ -40,7 +40,7 @@
         <activity
             android:name=".activities.HomeActivity"
             android:label=""
-            android:launchMode="singleTop"></activity>
+            android:launchMode="singleTop" />
         <activity android:name=".activities.TaskActivity" />
         <activity
             android:name=".activities.Tasks_Activity"
@@ -100,11 +100,21 @@
 
         <service android:name=".weather.WeatherSyncService" />
 
-        <activity android:name=".activities.ContactActivity"
+        <activity
+            android:name=".activities.ContactActivity"
             android:label="Contacts"
             android:parentActivityName=".activities.HomeActivity"
             android:theme="@style/AppTheme2"
-            android:windowSoftInputMode="stateHidden"/>
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activities.OpportunityActivity"
+            android:label="@string/title_activity_opportunity"
+            android:parentActivityName=".activities.HomeActivity"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HomeActivity" />
+        </activity>
     </application>
 
 </manifest>

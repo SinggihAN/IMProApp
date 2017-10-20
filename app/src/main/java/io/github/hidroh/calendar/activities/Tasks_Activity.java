@@ -16,6 +16,10 @@ import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
+
+import com.getbase.floatingactionbutton.FloatingActionButton;
+import com.getbase.floatingactionbutton.FloatingActionsMenu;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -46,6 +50,36 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
         getJSON();
         initView();
         getSupportActionBar().setElevation(0);
+
+//        findViewById(R.id.btnAdd).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Tasks_Activity.this, Tasks_Add_Activity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        findViewById(R.id.btnDraft).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Tasks_Activity.this, Tasks_List_Draft_Activity.class);
+//                startActivity(intent);
+//            }
+//        });
+
+        FloatingActionButton actionC = new FloatingActionButton(getBaseContext());
+        actionC.setTitle("Hide/Show Action above");
+
+        final FloatingActionsMenu menuMultipleActions = (FloatingActionsMenu) findViewById(R.id.multiple_actions);
+        menuMultipleActions.addButton(actionC);
+
+        final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
+        actionA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                actionA.setTitle("Action A clicked");
+            }
+        });
     }
 
     private void initView() {
@@ -170,28 +204,6 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()) {
-//            case R.id.navigation_add:
-//                Intent myAplikasi1 = new Intent(this,Tasks_Add_Activity.class);
-//                startActivity(myAplikasi1);
-//                return true;
-//
-//            case R.id.navigation_draft:
-//                Intent myAplikasi3 = new Intent(this,Tasks_List_Draft_Activity.class);
-//                startActivity(myAplikasi3);
-//                return true;
-//
-//
-//
-//            case R.id.navigation_exit:
-//            {
-//                keluarYN();//Pergi ke method exit
-//            }
-//            return true;
-//
-//            default:
-//                return super.onOptionsItemSelected(item);
-//        }
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
@@ -199,6 +211,14 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
             mWaveSwipeRefreshLayout.setRefreshing(true);
             refresh();
             return true;
+//        } else if(id == R.id.btnAdd){
+//            Intent myAplikasi1 = new Intent(this,Tasks_Add_Activity.class);
+//            startActivity(myAplikasi1);
+//            return true;
+//        } else if(id == R.id.btnDraft){
+//            Intent myAplikasi3 = new Intent(this,Tasks_List_Draft_Activity.class);
+//            startActivity(myAplikasi3);
+//            return true;
         }
 
         return super.onOptionsItemSelected(item);

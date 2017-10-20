@@ -9,11 +9,11 @@ public class Konfigurasi {
 
 
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
-    public static final String URL_ADD="http://192.168.0.11/impro/db_android/TambahTasks.php";
-    public static final String URL_GET_ALL = "http://192.168.0.11/impro/db_android/TampilkanSemuaTasks.php";
-    public static final String URL_GET_EMP = "http://192.168.0.11/impro/db_android/TampilkanTasks.php?id=";
-    public static final String URL_UPDATE_EMP = "http://192.168.0.11/impro/db_android/UpdateTasks.php";
-    public static final String URL_DELETE_EMP = "http://192.168.0.11/impro/db_android/HapusTasks.php?id=";
+    public static final String URL_ADD="http://192.168.0.8/impro/db_android/TambahTasks.php";
+    public static final String URL_GET_ALL = "http://192.168.0.8/impro/db_android/TampilkanSemuaTasks.php";
+    public static final String URL_GET_EMP = "http://192.168.0.8/impro/db_android/TampilkanTasks.php?id=";
+    public static final String URL_UPDATE_EMP = "http://192.168.0.8/impro/db_android/UpdateTasks.php";
+    public static final String URL_DELETE_EMP = "http://192.168.0.8/impro/db_android/HapusTasks.php?id=";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_ID_TASKS = "id";

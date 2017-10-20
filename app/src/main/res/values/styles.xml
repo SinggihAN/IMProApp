@@ -42,8 +42,7 @@
     </style>
 
 
-    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
-    </style>
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"></style>
 
     <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowNoTitle">true</item>
@@ -54,8 +53,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
-    </style>
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light"></style>
 
     <style name="AppTheme" parent="AppBaseTheme">
 
@@ -76,7 +74,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/accent_color</item>
 
-        <item name="android:navigationBarColor" tools:targetApi="21">@color/navigationBarColor</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/navigationBarColor
+        </item>
         <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
 
     </style>
@@ -102,4 +101,8 @@
         <item name="android:background">@drawable/fab_label_background</item>
         <item name="android:textColor">@color/white</item>
     </style>
+
+    <style name="MyMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

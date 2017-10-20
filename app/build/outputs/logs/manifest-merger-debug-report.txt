@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:2:1-110:12
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:2:1-120:12
 	package
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml
@@ -56,7 +56,7 @@ ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:18:5-
 	android:name
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:18:22-76
 application
-ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:20:5-108:19
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:20:5-118:19
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\singgih\.android\build-cache\78c7cf64c4e9ee50dcc50954cfdb196d809a7ecc\output\AndroidManifest.xml:5:5-19
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\8ef8cfd96ef8818c8d7b5eacf0a0edd52d442aa0\output\AndroidManifest.xml:26:5-20
@@ -110,7 +110,7 @@ ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:37:17
 	android:name
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:37:27-74
 activity#io.github.hidroh.calendar.activities.HomeActivity
-ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:40:9-43:55
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:40:9-43:46
 	android:label
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:42:13-29
 	android:launchMode
@@ -202,17 +202,27 @@ ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:101:9
 	android:name
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:101:18-60
 activity#io.github.hidroh.calendar.activities.ContactActivity
-ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:103:9-107:56
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:103:9-108:57
 	android:label
-		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:104:13-37
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:105:13-37
 	android:parentActivityName
-		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:105:13-66
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:106:13-66
 	android:windowSoftInputMode
-		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:107:13-54
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:108:13-54
 	android:theme
-		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:106:13-45
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:107:13-45
 	android:name
-		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:103:19-61
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:104:13-55
+activity#io.github.hidroh.calendar.activities.OpportunityActivity
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:109:9-117:20
+	android:label
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:111:13-63
+	android:parentActivityName
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:112:13-66
+	android:theme
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:113:13-51
+	android:name
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:110:13-59
 uses-sdk
 INJECTED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\singgih\.android\build-cache\78c7cf64c4e9ee50dcc50954cfdb196d809a7ecc\output\AndroidManifest.xml:3:5-72
