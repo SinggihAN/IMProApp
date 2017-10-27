@@ -1,8 +1,8 @@
-<RelativeLayout
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <ScrollView
@@ -11,7 +11,7 @@
 
 
         <LinearLayout
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="60dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="top"
@@ -32,12 +32,6 @@
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="10dp"
                     android:orientation="vertical" >
-
-
-                    <TextView
-                        android:text="Id"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
 
                     <TextView
                         android:id="@+id/id_tasks"
@@ -65,14 +59,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-
-                    <EditText android:id="@+id/status"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_weight="3"
-                        android:background="@android:drawable/editbox_background"
-                        android:entries="@array/android_layout_status" />
-
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/taskStatusDetail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Task Status"
+                        app:met_floatingLabel="normal"
+                        android:textColorHint="#CFD8DC"
+                        android:gravity="start"
+                        android:layout_margin="2.5dp"
+                        />
 
                     <LinearLayout
                         android:id="@+id/parent1"
@@ -90,7 +86,7 @@
                             android:gravity="center"
                             android:text="Due Date" />
 
-                        <EditText
+                        <TextView
                             android:id="@+id/tanggal"
                             android:layout_width="120dp"
                             android:layout_height="match_parent"
@@ -107,7 +103,7 @@
                             android:gravity="center"
                             android:text="Time" />
 
-                        <EditText
+                        <TextView
                             android:id="@+id/waktu"
                             android:layout_width="80dp"
                             android:layout_height="match_parent"
@@ -179,20 +175,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.80"
+                    android:paddingBottom="55dp"
                     android:orientation="vertical" >
 
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Update Task"
-                        android:id="@+id/buttonUpdate" />
 
-                    <Button
-                        android:layout_marginBottom="52dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Hapus Task"
-                        android:id="@+id/buttonDelete" />
 
 
                 </LinearLayout>

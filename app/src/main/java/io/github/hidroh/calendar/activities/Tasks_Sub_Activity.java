@@ -11,12 +11,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,17 +29,21 @@ import java.util.Calendar;
 import java.util.HashMap;
 
 import io.github.hidroh.calendar.R;
+import io.github.hidroh.calendar.adapter.CustomerAdapter;
 import io.github.hidroh.calendar.apps.Konfigurasi;
 import io.github.hidroh.calendar.apps.RequestHandler;
 
 public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView editId, Tanggal,Waktu;
-    private EditText editSubject,editStatus,editOutcome,editCustomers,editType,editDescription;
+    private EditText editSubject,editOutcome,editCustomers,editType,editDescription;
     private int mYear, mMonth, mDay, mHour, mMinute;
+    private MaterialBetterSpinner editStatus;
 
     private Button buttonUpdate;
     private Button buttonDelete;
+
+    String[] SPINNER_DATA = {"Active", "Inactive"};
 
     private String id;
 
@@ -51,8 +58,12 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
 
         editId = (TextView) findViewById(R.id.id_tasks);
         editSubject = (EditText) findViewById(R.id.subject);
-        editStatus = (EditText) findViewById(R.id.status);
         Tanggal = (TextView) findViewById(R.id.tanggal);
+
+        editStatus = (MaterialBetterSpinner) findViewById(R.id.taskStatusDetail);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(Tasks_Sub_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA);
+
+        editStatus.setAdapter(adapter);
 
         Waktu = (TextView) findViewById(R.id.waktu);
         editOutcome = (EditText) findViewById(R.id.outcome);

@@ -140,6 +140,10 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\list_item_calendar.xml"
     },
     {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calendar.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\activity_calendar.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_view_pager_moving_header.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\a8515e46bad92599a20064ff4fe747927cd2b656\\output\\res\\layout\\material_view_pager_moving_header.xml"
     },
@@ -318,6 +322,10 @@
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_calendar_activity.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\item_calendar_activity.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
