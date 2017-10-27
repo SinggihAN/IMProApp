@@ -35,12 +35,14 @@
                     <TextView
                         android:text="*Subject"
                         android:layout_width="match_parent"
+                        android:textColorHint="#CFD8DC"
                         android:layout_height="wrap_content" />
 
                     <EditText
                         android:id="@+id/editTextName1"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
+                        android:textColorHint="#CFD8DC"
                         android:layout_weight="3"
                         android:background="@android:drawable/editbox_background"
                         android:hint="Enter a subject" />
@@ -48,11 +50,13 @@
                     <TextView
                         android:text="Status"
                         android:layout_width="match_parent"
+                        android:textColorHint="#CFD8DC"
                         android:layout_height="wrap_content" />
 
                     <Spinner
                         android:id="@+id/spinner1"
                         android:layout_width="fill_parent"
+                        android:textColorHint="#CFD8DC"
                         android:layout_height="50dp"
                         android:background="@android:drawable/btn_dropdown"
                         android:entries="@array/android_layout_status"
@@ -70,12 +74,14 @@
                         <TextView
                             android:id="@+id/btntanggal"
                             android:layout_width="wrap_content"
+                            android:textColorHint="#CFD8DC"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Due Date" />
 
                         <TextView
                             android:id="@+id/txttanggal"
+                            android:textColorHint="#CFD8DC"
                             android:layout_width="120dp"
                             android:layout_height="match_parent"
                             android:textSize="17dp"
@@ -86,6 +92,7 @@
 
                         <TextView
                             android:id="@+id/btnwaktu"
+                            android:textColorHint="#CFD8DC"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:gravity="center"
@@ -93,6 +100,7 @@
 
                         <TextView
                             android:id="@+id/txtwaktu"
+                            android:textColorHint="#CFD8DC"
                             android:layout_width="80dp"
                             android:layout_height="match_parent"
                             android:textSize="17dp"
@@ -104,11 +112,13 @@
 
                     <TextView
                         android:text="Outcome"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <Spinner
                         android:id="@+id/spinner2"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="fill_parent"
                         android:layout_height="50dp"
                         android:background="@android:drawable/btn_dropdown"
@@ -117,11 +127,13 @@
 
                     <TextView
                         android:text="Customers"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <EditText
                         android:id="@+id/editTextName6"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_weight="3"
@@ -130,11 +142,13 @@
 
                     <TextView
                         android:text="Type"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <Spinner
                         android:id="@+id/spinner3"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="fill_parent"
                         android:layout_height="50dp"
                         android:background="@android:drawable/btn_dropdown"
@@ -143,11 +157,13 @@
 
                     <TextView
                         android:text="Description"
+                        android:textColorHint="#CFD8DC"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <EditText
                         android:layout_marginBottom="52dp"
+                        android:textColorHint="#CFD8DC"
                         android:id="@+id/editTextName7"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"

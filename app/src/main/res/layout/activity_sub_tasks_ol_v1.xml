@@ -11,7 +11,7 @@
 
 
         <LinearLayout
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="60dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="top"
@@ -32,12 +32,6 @@
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="10dp"
                     android:orientation="vertical" >
-
-
-                    <TextView
-                        android:text="Id"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
 
                     <TextView
                         android:id="@+id/id_tasks"
@@ -90,7 +84,7 @@
                             android:gravity="center"
                             android:text="Due Date" />
 
-                        <EditText
+                        <TextView
                             android:id="@+id/tanggal"
                             android:layout_width="120dp"
                             android:layout_height="match_parent"
@@ -107,7 +101,7 @@
                             android:gravity="center"
                             android:text="Time" />
 
-                        <EditText
+                        <TextView
                             android:id="@+id/waktu"
                             android:layout_width="80dp"
                             android:layout_height="match_parent"
@@ -179,20 +173,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.80"
+                    android:paddingBottom="55dp"
                     android:orientation="vertical" >
 
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Update Task"
-                        android:id="@+id/buttonUpdate" />
 
-                    <Button
-                        android:layout_marginBottom="52dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Hapus Task"
-                        android:id="@+id/buttonDelete" />
 
 
                 </LinearLayout>

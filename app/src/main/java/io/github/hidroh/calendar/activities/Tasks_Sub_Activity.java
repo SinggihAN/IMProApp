@@ -1,21 +1,28 @@
 package io.github.hidroh.calendar.activities;
 
+import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
+import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Calendar;
 import java.util.HashMap;
 
 import io.github.hidroh.calendar.R;
@@ -24,8 +31,9 @@ import io.github.hidroh.calendar.apps.RequestHandler;
 
 public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClickListener{
 
-    private TextView editId;
-    private EditText editSubject,editStatus, editTanggal,editWaktu,editOutcome,editCustomers,editType,editDescription;
+    private TextView editId, Tanggal,Waktu;
+    private EditText editSubject,editStatus,editOutcome,editCustomers,editType,editDescription;
+    private int mYear, mMonth, mDay, mHour, mMinute;
 
     private Button buttonUpdate;
     private Button buttonDelete;
@@ -44,20 +52,16 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
         editId = (TextView) findViewById(R.id.id_tasks);
         editSubject = (EditText) findViewById(R.id.subject);
         editStatus = (EditText) findViewById(R.id.status);
-        editTanggal = (EditText) findViewById(R.id.tanggal);
+        Tanggal = (TextView) findViewById(R.id.tanggal);
 
-        editWaktu = (EditText) findViewById(R.id.waktu);
+        Waktu = (TextView) findViewById(R.id.waktu);
         editOutcome = (EditText) findViewById(R.id.outcome);
         editCustomers = (EditText) findViewById(R.id.customers);
         editType = (EditText) findViewById(R.id.type);
         editDescription = (EditText) findViewById(R.id.description);
 
-
-        buttonUpdate = (Button) findViewById(R.id.buttonUpdate);
-        buttonDelete = (Button) findViewById(R.id.buttonDelete);
-
-        buttonUpdate.setOnClickListener(this);
-        buttonDelete.setOnClickListener(this);
+        Tanggal.setOnClickListener(this);
+        Waktu.setOnClickListener(this);
 
         editId.setText(id);
 
@@ -108,9 +112,9 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
 
             editSubject.setText(subject_tasks);
             editStatus.setText(status_tasks);
-            editTanggal.setText(tanggal_tasks);
+            Tanggal.setText(tanggal_tasks);
 
-            editWaktu.setText(waktu_tasks);
+            Waktu.setText(waktu_tasks);
             editOutcome.setText(outcome_tasks);
             editCustomers.setText(customers_tasks);
             editType.setText(type_tasks);
@@ -123,12 +127,60 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
     }
 
 
+
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.tanggal:
+
+                Calendar c = Calendar.getInstance();
+                mYear = c.get(Calendar.YEAR);
+                mMonth = c.get(Calendar.MONTH);
+                mDay = c.get(Calendar.DAY_OF_MONTH);
+
+                DatePickerDialog datePickerDialog = new DatePickerDialog(this,
+                        new DatePickerDialog.OnDateSetListener() {
+
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+
+                                Tanggal.setText(dayOfMonth + "-" + (monthOfYear + 1) + "-" + year);
+
+                            }
+                        }, mYear, mMonth, mDay);
+                datePickerDialog.show();
+                break;
+
+            case R.id.waktu:
+
+                c = Calendar.getInstance();
+                mHour = c.get(Calendar.HOUR_OF_DAY);
+                mMinute = c.get(Calendar.MINUTE);
+
+                TimePickerDialog timePickerDialog = new TimePickerDialog(this,
+                        new TimePickerDialog.OnTimeSetListener() {
+
+                            @Override
+                            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+
+                                Waktu.setText(hourOfDay + ":" + minute );
+                            }
+                        }, mHour, mMinute, false);
+                timePickerDialog.show();
+                break;
+        }
+    }
+
+
+
+
+
+
     private void updateEmployee(){
         final String subject_tasks = editSubject.getText().toString().trim();
         final String status_tasks = editStatus.getText().toString().trim();
-        final String tanggal_tasks = editTanggal.getText().toString().trim();
+        final String tanggal_tasks = Tanggal.getText().toString().trim();
 
-        final String waktu_tasks = editWaktu.getText().toString().trim();
+        final String waktu_tasks = Waktu.getText().toString().trim();
         final String outcome_tasks = editOutcome.getText().toString().trim();
         final String customers_tasks = editCustomers.getText().toString().trim();
         final String type_tasks = editType.getText().toString().trim();
@@ -229,14 +281,27 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
         alertDialog.show();
     }
 
-    @Override
-    public void onClick(View v) {
-        if(v == buttonUpdate){
-            updateEmployee();
-        }
 
-        if(v == buttonDelete){
-            confirmDeleteEmployee();
-        }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_edit, menu);
+        return true;
     }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_save: {
+                updateEmployee();
+                return true;
+            }
+            case R.id.action_delete: {
+                confirmDeleteEmployee();
+                return true;
+            }
+        }
+        return super.onOptionsItemSelected(item);
+
+    }
+
 }
