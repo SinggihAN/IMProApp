@@ -41,6 +41,8 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
 
     private WaveSwipeRefreshLayout mWaveSwipeRefreshLayout;
 
+    private android.support.design.widget.FloatingActionButton fab;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,33 +53,12 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
         initView();
         getSupportActionBar().setElevation(0);
 
-//        findViewById(R.id.btnAdd).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Tasks_Activity.this, Tasks_Add_Activity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        findViewById(R.id.btnDraft).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Tasks_Activity.this, Tasks_List_Draft_Activity.class);
-//                startActivity(intent);
-//            }
-//        });
-
-        FloatingActionButton actionC = new FloatingActionButton(getBaseContext());
-        actionC.setTitle("Hide/Show Action above");
-
-        final FloatingActionsMenu menuMultipleActions = (FloatingActionsMenu) findViewById(R.id.multiple_actions);
-        menuMultipleActions.addButton(actionC);
-
-        final FloatingActionButton actionA = (FloatingActionButton) findViewById(R.id.action_a);
-        actionA.setOnClickListener(new View.OnClickListener() {
+        fab = (android.support.design.widget.FloatingActionButton) findViewById(R.id.btnAddTask);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                actionA.setTitle("Action A clicked");
+                Intent intent = new Intent(Tasks_Activity.this, Tasks_Add_Activity.class);
+                startActivity(intent);
             }
         });
     }
