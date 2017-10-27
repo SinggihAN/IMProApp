@@ -102,7 +102,6 @@ public class Tasks_Add_Activity extends AppCompatActivity implements View.OnClic
         txttanggal.setOnClickListener(this);
         txtwaktu.setOnClickListener(this);
 
-
         //calling the method to load all the stored names
         loadNames();
         //the broadcast receiver to update sync status
@@ -219,12 +218,6 @@ public class Tasks_Add_Activity extends AppCompatActivity implements View.OnClic
 
         VolleySingleton.getInstance(this).addToRequestQueue(stringRequest);
     }
-
-
-
-
-
-
 
     @Override
     public void onClick(View v) {

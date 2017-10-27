@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:2:1-120:12
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:2:1-140:12
 	package
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml
@@ -56,13 +56,15 @@ ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:18:5-
 	android:name
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:18:22-76
 application
-ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:20:5-118:19
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:20:5-138:19
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\singgih\.android\build-cache\78c7cf64c4e9ee50dcc50954cfdb196d809a7ecc\output\AndroidManifest.xml:5:5-19
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\8ef8cfd96ef8818c8d7b5eacf0a0edd52d442aa0\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\singgih\.android\build-cache\300d60a8c507c429924b4ed7d3daf3b11f26785c\output\AndroidManifest.xml:9:5-20
 MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\singgih\.android\build-cache\198cd193d5a298972033c9c04f0b897b1b640318\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\07cc87e83adedf1e15c657f8c401a0c6e4389fce\output\AndroidManifest.xml:26:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\singgih\.android\build-cache\5156d0be42abe255e2484e49120de72a98df538d\output\AndroidManifest.xml:12:5-20
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\singgih\.android\build-cache\d0d1e29a4219688eef0e2c9b03fd66e52eefb997\output\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\15405ab8edeb959ccba6baf1c1390352f6591f55\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\157d981ff2b36da71f2cf75e13f60b228e8f83d0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\52c555ffcb75bb8ba1ecf871cd944d78af4e0c08\output\AndroidManifest.xml:29:5-20
@@ -72,7 +74,6 @@ MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\sing
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\fd857e2a3b1b49c5cd63b0624bedebf6c6034ad8\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\5fa584173a4d451a1e819d77ce63cd446d55dbd7\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\c8906346af8028f5a30621397537af6b22c95310\output\AndroidManifest.xml:29:5-20
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\singgih\.android\build-cache\5156d0be42abe255e2484e49120de72a98df538d\output\AndroidManifest.xml:12:5-20
 	android:label
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:25:9-41
 	android:supportsRtl
@@ -223,6 +224,42 @@ ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:109:9
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:113:13-51
 	android:name
 		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:110:13-59
+activity#io.github.hidroh.calendar.activities.CustomerActivity
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:119:9-124:57
+	android:label
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:121:13-37
+	android:parentActivityName
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:122:13-66
+	android:windowSoftInputMode
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:124:13-54
+	android:theme
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:123:13-45
+	android:name
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:120:13-56
+activity#io.github.hidroh.calendar.activities.CustomerDraftActivity
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:126:9-70
+	android:name
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:126:19-67
+activity#io.github.hidroh.calendar.activities.CustomerAddActivity
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:128:9-131:47
+	android:label
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:129:13-41
+	android:parentActivityName
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:130:13-70
+	android:theme
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:131:13-45
+	android:name
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:128:19-65
+activity#io.github.hidroh.calendar.activities.CustomerDetailActivity
+ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:133:9-136:47
+	android:label
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:134:13-44
+	android:parentActivityName
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:135:13-70
+	android:theme
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:136:13-45
+	android:name
+		ADDED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml:133:19-68
 uses-sdk
 INJECTED from D:\WORKS\Android\IMPro-master2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\singgih\.android\build-cache\78c7cf64c4e9ee50dcc50954cfdb196d809a7ecc\output\AndroidManifest.xml:3:5-72
@@ -234,6 +271,9 @@ MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\singgih
 MERGED from [com.jpardogo.materialtabstrip:library:1.1.0] C:\Users\singgih\.android\build-cache\198cd193d5a298972033c9c04f0b897b1b640318\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\07cc87e83adedf1e15c657f8c401a0c6e4389fce\output\AndroidManifest.xml:20:5-44
 MERGED from [com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6] C:\Users\singgih\.android\build-cache\ae17d6abd079c762bf485ac05e1b5664db6c93d9\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\singgih\.android\build-cache\5156d0be42abe255e2484e49120de72a98df538d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\singgih\.android\build-cache\d0d1e29a4219688eef0e2c9b03fd66e52eefb997\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] C:\Users\singgih\.android\build-cache\1f2340bde1dc96e373a7f25561bb6a8ec77e0bd7\output\AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\15405ab8edeb959ccba6baf1c1390352f6591f55\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\157d981ff2b36da71f2cf75e13f60b228e8f83d0\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\52c555ffcb75bb8ba1ecf871cd944d78af4e0c08\output\AndroidManifest.xml:21:5-23:63
@@ -243,7 +283,6 @@ MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\sing
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\fd857e2a3b1b49c5cd63b0624bedebf6c6034ad8\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\5fa584173a4d451a1e819d77ce63cd446d55dbd7\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\c8906346af8028f5a30621397537af6b22c95310\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\singgih\.android\build-cache\5156d0be42abe255e2484e49120de72a98df538d\output\AndroidManifest.xml:8:5-10:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\singgih\.android\build-cache\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

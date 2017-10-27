@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\singgih\.android\build-cache\1f2340bde1dc96e373a7f25561bb6a8ec77e0bd7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="D:\WORKS\Android\IMPro-master2\app\build\intermediates\pre-dexed\debug\classes_cfd527d8f549c0dd0780100fbcf5a558a0b1af71.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\singgih\.android\build-cache\ae17d6abd079c762bf485ac05e1b5664db6c93d9\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="3f16e74358c80b2705db7c817ff1e37f0155cc81">
         <dex dex="D:\WORKS\Android\IMPro-master2\app\build\intermediates\pre-dexed\debug\classes_72c295472eb200d74f9cf7c99877f87ea016542e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\singgih\.android\build-cache\d0d1e29a4219688eef0e2c9b03fd66e52eefb997\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="D:\WORKS\Android\IMPro-master2\app\build\intermediates\pre-dexed\debug\classes_71e952185c7fe2af49c31cbe0a7521170faba75b.jar" />
     </item>
     <item
         is-multidex="false"

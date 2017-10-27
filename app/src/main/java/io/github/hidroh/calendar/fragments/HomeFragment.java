@@ -13,6 +13,7 @@ import android.widget.ImageButton;
 
 import io.github.hidroh.calendar.R;
 import io.github.hidroh.calendar.activities.ContactActivity;
+import io.github.hidroh.calendar.activities.CustomerActivity;
 import io.github.hidroh.calendar.activities.OpportunityActivity;
 import io.github.hidroh.calendar.activities.TaskActivity;
 import io.github.hidroh.calendar.activities.Tasks_Activity;
@@ -159,6 +160,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), OpportunityActivity.class);
+                getActivity().startActivity(intent);
+            }
+        });
+        btnCustomers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), CustomerActivity.class);
                 getActivity().startActivity(intent);
             }
         });

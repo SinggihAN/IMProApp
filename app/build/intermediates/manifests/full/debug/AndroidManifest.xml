@@ -123,6 +123,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.HomeActivity" />
         </activity>
+        <activity
+            android:name="io.github.hidroh.calendar.activities.CustomerActivity"
+            android:label="Customer"
+            android:parentActivityName="io.github.hidroh.calendar.activities.HomeActivity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="io.github.hidroh.calendar.activities.CustomerDraftActivity" />
+        <activity
+            android:name="io.github.hidroh.calendar.activities.CustomerAddActivity"
+            android:label="Add Customer"
+            android:parentActivityName="io.github.hidroh.calendar.activities.CustomerActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="io.github.hidroh.calendar.activities.CustomerDetailActivity"
+            android:label="Detail Customer"
+            android:parentActivityName="io.github.hidroh.calendar.activities.CustomerActivity"
+            android:theme="@style/AppTheme2" />
     </application>
 
 </manifest>

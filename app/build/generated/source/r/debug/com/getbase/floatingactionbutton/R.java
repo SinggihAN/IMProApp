@@ -26,16 +26,16 @@ public final class R {
         public static final int fab_title = 0x7f01010a;
     }
     public static final class dimen {
-        public static final int fab_actions_spacing = 0x7f090088;
-        public static final int fab_icon_size = 0x7f090089;
-        public static final int fab_labels_margin = 0x7f09008a;
-        public static final int fab_plus_icon_size = 0x7f09008b;
-        public static final int fab_plus_icon_stroke = 0x7f09008c;
-        public static final int fab_shadow_offset = 0x7f09008d;
-        public static final int fab_shadow_radius = 0x7f09008e;
-        public static final int fab_size_mini = 0x7f09008f;
-        public static final int fab_size_normal = 0x7f090090;
-        public static final int fab_stroke_width = 0x7f090091;
+        public static final int fab_actions_spacing = 0x7f09008d;
+        public static final int fab_icon_size = 0x7f09008e;
+        public static final int fab_labels_margin = 0x7f09008f;
+        public static final int fab_plus_icon_size = 0x7f090090;
+        public static final int fab_plus_icon_stroke = 0x7f090091;
+        public static final int fab_shadow_offset = 0x7f090092;
+        public static final int fab_shadow_radius = 0x7f090093;
+        public static final int fab_size_mini = 0x7f090094;
+        public static final int fab_size_normal = 0x7f090095;
+        public static final int fab_stroke_width = 0x7f090096;
     }
     public static final class drawable {
         public static final int fab_bg_mini = 0x7f02007d;
@@ -54,7 +54,7 @@ public final class R {
     public static final class styleable {
         public static final int[] AddFloatingActionButton = { 0x7f01004d };
         public static final int AddFloatingActionButton_fab_plusIconColor = 0;
-        public static final int[] FloatingActionButton = { 0x7f010048, 0x7f010105, 0x7f010106, 0x7f010107, 0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110, 0x7f0101aa, 0x7f0101ab };
+        public static final int[] FloatingActionButton = { 0x7f010048, 0x7f010105, 0x7f010106, 0x7f010107, 0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110, 0x7f0101c7, 0x7f0101c8 };
         public static final int FloatingActionButton_fab_colorDisabled = 2;
         public static final int FloatingActionButton_fab_colorNormal = 3;
         public static final int FloatingActionButton_fab_colorPressed = 1;

@@ -61,4 +61,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_opportunity">Opportunities</string>
+
+    <!--Customer-->
+    <string name="hint_custName">Customer Name</string>
+    <string name="hint_custSt">Customer Status</string>
+    <string name="hint_custPhone">Customer Phone</string>
+    <string name="hint_custAddress">Customer Address</string>
+    <string name="hint_custDesc">Customer Description</string>
+    <string name="btn_custAdd">Create New Customer</string>
 </resources>

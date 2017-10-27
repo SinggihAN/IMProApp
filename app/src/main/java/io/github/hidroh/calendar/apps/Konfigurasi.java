@@ -9,8 +9,8 @@ public class Konfigurasi {
 
 
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
-    public static final String URL_ADD="http://192.168.0.8/impro/db_android/TambahTasks.php";
-    public static final String URL_GET_ALL = "http://192.168.0.8/impro/db_android/TampilkanSemuaTasks.php";
+    public static final String URL_ADD="http://128.159.1.65/impro/db_android/TambahTasks.php";
+    public static final String URL_GET_ALL = "http://128.159.1.65/impro/db_android/TampilkanSemuaTasks.php";
     public static final String URL_GET_EMP = "http://192.168.0.8/impro/db_android/TampilkanTasks.php?id=";
     public static final String URL_UPDATE_EMP = "http://192.168.0.8/impro/db_android/UpdateTasks.php";
     public static final String URL_DELETE_EMP = "http://192.168.0.8/impro/db_android/HapusTasks.php?id=";
