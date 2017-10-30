@@ -1,27 +1,23 @@
 [
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alert2.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\alert2.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasks4.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\tasks4.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_toggle_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_expand_toggle_white_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_white.png",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\a8515e46bad92599a20064ff4fe747927cd2b656\\output\\res\\drawable\\logo_white.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_top.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\calendar_top.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_circle_black_24dp.xml",
@@ -32,40 +28,32 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_person_black_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\business2.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\business2.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_more_white_24dp.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_expand_more_white_24dp.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear_night_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_clear_night_24dp.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_partly_cloudy_night_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_partly_cloudy_night_24dp.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\contact2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\psts_background_tab.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\ef718085b3b56e7aadf01db5342c6f9f1cd362dc\\output\\res\\drawable\\psts_background_tab.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\business.png",
@@ -76,8 +64,8 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\contract.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_less_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_expand_less_white_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasks3.png",
@@ -88,8 +76,24 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\dot.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\people.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\people.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear_day_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_clear_day_24dp.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundedbg.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\roundedbg.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notifications_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg1.png",
@@ -98,6 +102,522 @@
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\horizontal_divider.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\horizontal_divider.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appicon.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\appicon.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_home_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wind_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_wind_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_toggle_white_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_expand_toggle_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leads2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\leads2.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_snow_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_snow_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\business2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\business2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opp3.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\opp3.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_add_white_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\dot.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\build1.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\build1.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\bg1.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\compass.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_white_96dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_event_white_96dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gps.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\gps.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tandatanya.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\selector_tandatanya.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ana2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ana2.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leads.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\leads.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alert1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\alert1.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust1.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\cust1.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\barchart.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\barchart.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_white.png",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\478991dbd558e12777d30ed5bc79b0fbd547d50d\\output\\res\\drawable\\logo_white.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_bg1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\home_bg1.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_background.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\list_item_background.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasks4.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\tasks4.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_access_time_white_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_access_time_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_event_white_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_home_black_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paradise2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\paradise2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paradise5.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\paradise5.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\salesbg.jpg",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\salesbg.jpg"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chart.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\chart.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\briefcase.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\briefcase.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_access_time_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_access_time_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cell.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\calendar_cell.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\for3.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\for3.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leads2.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\leads2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_title_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_title_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\forecast.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\forecast.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\signs.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\signs.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\build1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\build1.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg7.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg7.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paradise.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\paradise.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wind_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_wind_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alert2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\alert2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_snow_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_snow_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opp3.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\opp3.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coins.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\coins.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\around1.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\around1.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\barchart.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\barchart.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_dashboard_black_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear_night_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_clear_night_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cloudy_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_cloudy_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear_day_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_clear_day_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_right.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\arrow_right.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundedbg.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\roundedbg.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_partly_cloudy_day_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_partly_cloudy_day_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasks3.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\tasks3.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact2.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\contact2.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cloudy_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_cloudy_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_settings_black_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ana2.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ana2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paradise5.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\paradise5.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rumput4.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\rumput4.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_white_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_event_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\calendar.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg4.jpg",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg4.jpg"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hotel.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\hotel.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasks2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\tasks2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg4.jpg",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\bg4.jpg"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundedbutton.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\roundedbutton.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cal1.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\cal1.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\analytic.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\analytic.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg2.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg2.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\bg2.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contract.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\contract.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_settings_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tasks4.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\tasks4.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_partly_cloudy_day_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_partly_cloudy_day_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_label_background.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\fab_label_background.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_top.png",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\calendar_top.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_person_black_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\megaphone.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\megaphone.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg3.jpg",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\bg3.jpg"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rain_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_rain_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear_night_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_clear_night_24dp.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_partly_cloudy_night_24dp.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_partly_cloudy_night_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\business.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\business.png"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_person_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success.png",
@@ -120,52 +640,52 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\fab_label_background.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\analytic.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\analytic.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundedbutton.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\roundedbutton.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chart.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\chart.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\horizontal_divider.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\horizontal_divider.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\psts_background_tab.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\198cd193d5a298972033c9c04f0b897b1b640318\\output\\res\\drawable\\psts_background_tab.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wind_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_wind_24dp.xml"
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_toggle_white_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_expand_toggle_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_snow_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_snow_24dp.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\graphbluebackground.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\graphbluebackground.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tandatanya.png",
@@ -176,32 +696,32 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg3.jpg"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tandatanya_tekan.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\tandatanya_tekan.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_title_white_24dp.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_title_white_24dp.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\dot.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\build1.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\build1.png"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_left.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\arrow_left.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_white_96dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_event_white_96dp.xml"
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.png",
@@ -212,28 +732,20 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\calendar_cel_selectl.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\for3.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\for3.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leads.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\leads.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg7.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\bg7.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\megaphone.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\megaphone.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust1.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\cust1.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compass.png",
@@ -244,8 +756,16 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\barchart.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\barchart.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_dashboard_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
@@ -260,24 +780,32 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\gps.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_background.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\list_item_background.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_access_time_white_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_access_time_white_24dp.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coins.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\coins.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_more_white_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_expand_more_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_partly_cloudy_night_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_partly_cloudy_night_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cus2.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\cus2.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_home_black_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_left.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\arrow_left.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appicon.png",
@@ -288,16 +816,28 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_expand_less_white_24dp.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stopwatch.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\stopwatch.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cell.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\calendar_cell.png"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\around1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\around1.png"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_right.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\arrow_right.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
@@ -312,32 +852,40 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\stopwatch.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info_black_24dp.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cus2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\cus2.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\background.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\for3.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\for3.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_top.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\calendar_top.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leads2.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\leads2.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_white_96dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_event_white_96dp.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg7.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg7.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_white_24dp.xml",
@@ -348,8 +896,8 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\login_bg.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -360,28 +908,28 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tandatanya.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\tandatanya.png"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rain_24dp.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_rain_24dp.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opp3.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\opp3.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_circle_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_add_circle_black_24dp.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\around1.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\around1.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white2.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\bg_white2.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coins.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\coins.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white2.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg_white2.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_dashboard_black_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notifications_black_24dp.xml",
@@ -392,36 +940,32 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_launcher.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_clear_day_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_clear_day_24dp.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_partly_cloudy_day_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_partly_cloudy_day_24dp.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cal1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\cal1.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact2.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\contact2.png"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rumput4.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\rumput4.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\graphbluebackground.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\graphbluebackground.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\people.png",
@@ -432,24 +976,32 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\tandatanya_tekan.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cloudy_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_cloudy_24dp.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_settings_black_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_settings_black_24dp.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cel_selectl.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\calendar_cel_selectl.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info_black_24dp.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust1.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\cust1.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
@@ -464,52 +1016,40 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\forecast.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ana2.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ana2.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leads.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\leads.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\calendar.png"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paradise5.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\paradise5.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_event_white_24dp.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\ic_event_white_24dp.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paradise2.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\paradise2.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\calendar.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\background.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg4.jpg",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg4.jpg"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundedbutton.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\roundedbutton.xml"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cal1.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\cal1.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\analytic.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\analytic.png"
-    },
-    {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\check.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_background.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\list_item_background.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tandatanya.xml",
@@ -520,20 +1060,20 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\alert1.png"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg2.png",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\drawable\\bg2.png"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\horizontal_divider.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\horizontal_divider.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\drawable\\success.png"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\briefcase.png",

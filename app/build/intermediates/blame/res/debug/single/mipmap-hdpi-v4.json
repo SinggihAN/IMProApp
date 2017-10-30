@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }

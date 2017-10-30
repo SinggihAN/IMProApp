@@ -23,8 +23,8 @@ public class AppConfig {
     public static final String URL_GET_ALL_CUST = baseUrl + "/customer" + key;
     public static final String URL_GET_CUST = baseUrl + "/customer/";
     public static final String URL_SAVE_CUST = baseUrl + "/customer/create" + key;
-    public static final String URL_UPDATE_CUST = baseUrl + "/customer/update/" + key;
-    public static final String URL_DELETE_CUST = baseUrl + "/customer/delete/" + key;
+    public static final String URL_UPDATE_CUST = baseUrl + "/customer/update/";
+    public static final String URL_DELETE_CUST = baseUrl + "/customer/delete/";
 
 
     //Define Key

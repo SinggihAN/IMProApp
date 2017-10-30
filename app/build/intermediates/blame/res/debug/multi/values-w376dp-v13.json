@@ -1,5 +1,88 @@
 [
     {
+        "outputFile": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w376dp-v13\\values-w376dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\values-w376dp\\arrays.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 50,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 48,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\values-w376dp\\arrays.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 49,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 46,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\values-w376dp\\arrays.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 47,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\values-w376dp\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 166
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w376dp-v13\\values-w376dp-v13.xml",
         "map": [
             {
