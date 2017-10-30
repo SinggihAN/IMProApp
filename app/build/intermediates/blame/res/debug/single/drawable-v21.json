@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
@@ -16,8 +20,36 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\5cfcc3889b895446910447f80e51a0a256f4d3ab\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
@@ -34,5 +66,9 @@
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\psts_background_tab.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\ef718085b3b56e7aadf01db5342c6f9f1cd362dc\\output\\res\\drawable-v21\\psts_background_tab.xml"
     }
 ]

@@ -1,4 +1,7 @@
-#Fri Oct 27 16:52:15 ICT 2017
-base.0=D\:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Oct 30 09:17:01 ICT 2017
+base.0=E\:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4e7d863d95ae512729d13574d8a725e0c95689ed
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=D\:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=E\:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d7919d335c31b860a68df411b28f1d2775f7e78b\\classes.dex
+base.1=E\:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d7919d335c31b860a68df411b28f1d2775f7e78b
+file.0=E\:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4e7d863d95ae512729d13574d8a725e0c95689ed\\classes.dex

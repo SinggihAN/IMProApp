@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add_task.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\menu_add_task.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\menu\\navigation.xml"
     },
@@ -12,8 +16,20 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\menu\\menu_task.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_task.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\menu_task.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\menu\\menu_home.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\menu_home.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_edit.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\menu_edit.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
@@ -24,7 +40,19 @@
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\menu\\menu_add_task.xml"
     },
     {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contact.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\menu_contact.xml"
+    },
+    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contact.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\menu\\menu_contact.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\menu\\menu_main.xml"
     }
 ]

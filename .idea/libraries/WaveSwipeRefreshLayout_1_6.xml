@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="WaveSwipeRefreshLayout-1.6">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/ae17d6abd079c762bf485ac05e1b5664db6c93d9/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/ae17d6abd079c762bf485ac05e1b5664db6c93d9/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/5bdb58fc20ca2f8cc5c13852975c5921169ac415/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/5bdb58fc20ca2f8cc5c13852975c5921169ac415/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

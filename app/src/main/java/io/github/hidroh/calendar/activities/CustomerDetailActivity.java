@@ -1,6 +1,7 @@
 package io.github.hidroh.calendar.activities;
 
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.design.widget.CoordinatorLayout;
@@ -11,12 +12,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.HashMap;
 
 import io.github.hidroh.calendar.R;
 import io.github.hidroh.calendar.adapter.CustomerAdapter;
@@ -40,7 +44,6 @@ public class CustomerDetailActivity extends AppCompatActivity implements View.On
     private CoordinatorLayout coordinatorLayoutDetail;
 
     String[] SPINNER_DATA = {"Active", "Inactive"};
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +95,7 @@ public class CustomerDetailActivity extends AppCompatActivity implements View.On
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequestParam(AppConfig.URL_GET_CUST,custId + AppConfig.API_KEY);
+                String s = rh.sendGetRequestParam(AppConfig.URL_GET_CUST, custId + AppConfig.API_KEY);
                 return s;
             }
         }
@@ -137,9 +140,125 @@ public class CustomerDetailActivity extends AppCompatActivity implements View.On
     }
 
     public void updateCustomer(){
+        final String custName = cust_name.getText().toString().trim();
+        final String custSt = cust_st.getText().toString().trim();
+        final String custPhone = cust_phone.getText().toString().trim();
+
+        final String custAddress = cust_address.getText().toString().trim();
+        final String custDesc = cust_desc.getText().toString().trim();
+
+        class UpdateCustomer extends AsyncTask<Void,Void,String> {
+            ProgressDialog loading;
+            @Override
+            protected void onPreExecute() {
+                super.onPreExecute();
+                loading = ProgressDialog.show(CustomerDetailActivity.this,"Updating...","Wait...",false,false);
+            }
+
+            @Override
+            protected void onPostExecute(String s) {
+                super.onPostExecute(s);
+                loading.dismiss();
+                JSONObject jObject;
+                try {
+                    jObject = new JSONObject(s);
+                    if (jObject.has("error")) {
+                        String aJsonString = jObject.getString("error");
+                        Toast.makeText(CustomerDetailActivity.this, aJsonString, Toast.LENGTH_LONG).show();
+                    } else {
+                        Toast.makeText(CustomerDetailActivity.this, "Customer Updated!", Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e1) {
+                    // TODO Auto-generated catch block
+                    e1.printStackTrace();
+                }
+            }
+
+            @Override
+            protected String doInBackground(Void... params) {
+                HashMap<String,String> hashMap = new HashMap<>();
+                hashMap.put(AppConfig.CUST_ID, custId);
+                hashMap.put(AppConfig.CUST_NAME, custName);
+                hashMap.put(AppConfig.CUST_ST, custSt);
+                hashMap.put(AppConfig.CUST_PHONE, custPhone);
+                hashMap.put(AppConfig.CUST_ADDRESS, custAddress);
+                hashMap.put(AppConfig.CUST_DESC, custDesc);
+
+                RequestHandler rh = new RequestHandler();
+
+                String s = rh.sendPostRequest(AppConfig.URL_UPDATE_CUST + custId + AppConfig.API_KEY, hashMap);
+
+                return s;
+            }
+        }
+
+        UpdateCustomer ue = new UpdateCustomer();
+        ue.execute();
 
     }
     public void confirmDeleteCustomer(){
+        android.support.v7.app.AlertDialog.Builder alertDialogBuilder = new android.support.v7.app.AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage("Are you sure want to delete this customer?");
 
+        alertDialogBuilder.setPositiveButton("Yes",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        deleteCustomer();
+                        startActivity(new Intent(CustomerDetailActivity.this, CustomerActivity.class));
+                    }
+                });
+
+        alertDialogBuilder.setNegativeButton("No",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+
+                    }
+                });
+
+        android.support.v7.app.AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+    private void deleteCustomer(){
+        class DeleteCustomer extends AsyncTask<Void,Void,String> {
+            ProgressDialog loading;
+
+            @Override
+            protected void onPreExecute() {
+                super.onPreExecute();
+                loading = ProgressDialog.show(CustomerDetailActivity.this, "Deleting...", "Wait...", false, false);
+            }
+
+            @Override
+            protected void onPostExecute(String s) {
+                super.onPostExecute(s);
+                loading.dismiss();
+                JSONObject jObject;
+                try {
+                    jObject = new JSONObject(s);
+                    if (jObject.has("error")) {
+                        String aJsonString = jObject.getString("error");
+                        Toast.makeText(CustomerDetailActivity.this, aJsonString, Toast.LENGTH_LONG).show();
+                    } else {
+                        Toast.makeText(CustomerDetailActivity.this, "Customer Deleted!", Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e1) {
+                    // TODO Auto-generated catch block
+                    e1.printStackTrace();
+                }
+            }
+
+            @Override
+            protected String doInBackground(Void... params) {
+                RequestHandler rh = new RequestHandler();
+                String s = rh.sendGetRequest(AppConfig.URL_DELETE_CUST + custId + AppConfig.API_KEY);
+                return s;
+            }
+        }
+
+        DeleteCustomer de = new DeleteCustomer();
+        de.execute();
     }
 }
