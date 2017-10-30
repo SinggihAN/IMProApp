@@ -63,12 +63,11 @@
                         android:id="@+id/taskStatusDetail"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Task Status"
+                        android:hint="Pilih Status"
                         app:met_floatingLabel="normal"
                         android:textColorHint="#CFD8DC"
                         android:gravity="start"
-                        android:layout_margin="2.5dp"
-                        />
+                        android:layout_margin="2.5dp" />
 
                     <LinearLayout
                         android:id="@+id/parent1"
@@ -119,39 +118,45 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                    <EditText
-                        android:id="@+id/outcome"
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/outcomeStatusDetail"
                         android:layout_width="fill_parent"
-                        android:layout_height="50dp"
-                        android:background="@android:drawable/editbox_background"
-                        android:entries="@array/android_layout_outcome"
-                        android:layout_weight="3" />
+                        android:layout_height="wrap_content"
+                        android:hint="Pilih Status"
+                        app:met_floatingLabel="normal"
+                        android:textColorHint="#CFD8DC"
+                        android:gravity="start"
+                        android:layout_margin="2.5dp" />
 
                     <TextView
                         android:text="Customers"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                    <EditText
-                        android:id="@+id/customers"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_weight="3"
-                        android:background="@android:drawable/editbox_background"
-                        android:hint="" />
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/customerStatusDetail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Pilih Customers"
+                        app:met_floatingLabel="normal"
+                        android:textColorHint="#CFD8DC"
+                        android:gravity="start"
+                        android:layout_margin="2.5dp" />
 
                     <TextView
                         android:text="Type"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                    <EditText
-                        android:id="@+id/type"
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/typeStatusDetail"
                         android:layout_width="fill_parent"
-                        android:layout_height="50dp"
-                        android:background="@android:drawable/editbox_background"
-                        android:entries="@array/android_layout_type"
-                        android:layout_weight="3" />
+                        android:layout_height="wrap_content"
+                        android:hint="Pilih Status"
+                        app:met_floatingLabel="normal"
+                        android:textColorHint="#CFD8DC"
+                        android:gravity="start"
+                        android:layout_margin="2.5dp" />
 
                     <TextView
                         android:text="Description"

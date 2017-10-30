@@ -36,14 +36,17 @@ import io.github.hidroh.calendar.apps.RequestHandler;
 public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView editId, Tanggal,Waktu;
-    private EditText editSubject,editOutcome,editCustomers,editType,editDescription;
+    private EditText editSubject,editDescription;
     private int mYear, mMonth, mDay, mHour, mMinute;
-    private MaterialBetterSpinner editStatus;
+    private MaterialBetterSpinner editStatus, editOutcome, editType, editCustomers;
 
     private Button buttonUpdate;
     private Button buttonDelete;
 
-    String[] SPINNER_DATA = {"Active", "Inactive"};
+    String[] SPINNER_DATA = {"Canceled", "Complete", "In Progress", "Not Started", "On Hold"};
+    String[] SPINNER_DATA1 = {"Failed",  "Successful", "Incomplete"};
+    String[] SPINNER_DATA2 = {"General", "In Office", "Call", "Visit", "Negotiation", "Chat"};
+    String[] SPINNER_DATA3 = {"PT GALPERTI", "PT VALCON", "PT OHTORI INDONESIA", "PT KIDS ZAMAN NOW", "PT REGNAROK", "PT MARVEL STUDIOS" , "PT MSV PICTURS"};
 
     private String id;
 
@@ -62,13 +65,22 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
 
         editStatus = (MaterialBetterSpinner) findViewById(R.id.taskStatusDetail);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(Tasks_Sub_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA);
-
         editStatus.setAdapter(adapter);
 
+        editOutcome = (MaterialBetterSpinner) findViewById(R.id.outcomeStatusDetail);
+        ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(Tasks_Sub_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA1);
+        editOutcome.setAdapter(adapter1);
+
+        editType = (MaterialBetterSpinner) findViewById(R.id.typeStatusDetail);
+        ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(Tasks_Sub_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA2);
+        editType.setAdapter(adapter2);
+
+        editCustomers = (MaterialBetterSpinner) findViewById(R.id.customerStatusDetail);
+        ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(Tasks_Sub_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA3);
+        editCustomers.setAdapter(adapter3);
+
+
         Waktu = (TextView) findViewById(R.id.waktu);
-        editOutcome = (EditText) findViewById(R.id.outcome);
-        editCustomers = (EditText) findViewById(R.id.customers);
-        editType = (EditText) findViewById(R.id.type);
         editDescription = (EditText) findViewById(R.id.description);
 
         Tanggal.setOnClickListener(this);
@@ -292,6 +304,32 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
         alertDialog.show();
     }
 
+    private void confirmUpdateEmployee(){
+        android.support.v7.app.AlertDialog.Builder alertDialogBuilder = new android.support.v7.app.AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage("Apakah Anda Yakin Ingin Update Tasks ini?");
+
+        alertDialogBuilder.setPositiveButton("Ya",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        updateEmployee();
+                        startActivity(new Intent(Tasks_Sub_Activity.this,Tasks_Activity.class));
+                    }
+                });
+
+        alertDialogBuilder.setNegativeButton("Tidak",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+
+                    }
+                });
+
+        android.support.v7.app.AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -303,7 +341,7 @@ public class Tasks_Sub_Activity extends AppCompatActivity implements View.OnClic
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_save: {
-                updateEmployee();
+                confirmUpdateEmployee();
                 return true;
             }
             case R.id.action_delete: {
