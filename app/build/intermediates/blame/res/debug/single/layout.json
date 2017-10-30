@@ -4,12 +4,12 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notifications.xml",
         "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_view_pager_layout.xml",
         "source": "C:\\Users\\Singgih\\.android\\build-cache\\478991dbd558e12777d30ed5bc79b0fbd547d50d\\output\\res\\layout\\material_view_pager_layout.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_tasks_ol_v1.xml",
@@ -212,12 +212,12 @@
         "source": "C:\\Users\\Singgih\\.android\\build-cache\\478991dbd558e12777d30ed5bc79b0fbd547d50d\\output\\res\\layout\\material_view_pager_imageview_header.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_customer.xml",
-        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\list_item_customer.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_customer.xml",
+        "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\list_item_customer.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -240,12 +240,12 @@
         "source": "C:\\Users\\singgih\\.android\\build-cache\\a8515e46bad92599a20064ff4fe747927cd2b656\\output\\res\\layout\\material_view_pager_pagertitlestrip_newstand.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\b21b76a673b1ecce185d6b39375b6139c5f7d2c9\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -272,12 +272,12 @@
         "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_add.xml",
-        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\fab_add.xml"
-    },
-    {
         "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tools_list_item_card_big.xml",
         "source": "C:\\Users\\Singgih\\.android\\build-cache\\478991dbd558e12777d30ed5bc79b0fbd547d50d\\output\\res\\layout\\tools_list_item_card_big.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_add.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\fab_add.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -316,12 +316,12 @@
         "source": "C:\\Users\\Singgih\\.android\\build-cache\\a3a41070a3d25b9bd2f761309ad3c36c50b40b86\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_calendar_activity.xml",
@@ -332,12 +332,12 @@
         "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\list_item_calendar.xml"
     },
     {
-        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customers.xml",
         "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\customers.xml"
+    },
+    {
+        "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_edit_view.xml",
@@ -358,6 +358,10 @@
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\empty_permission.xml",
         "source": "D:\\WORKS\\Android\\IMPro-master2\\app\\src\\main\\res\\layout\\empty_permission.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opportunity_detail.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\activity_opportunity_detail.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_view_pager_pagertitlestrip_standard.xml",
@@ -798,6 +802,10 @@
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\singgih\\.android\\build-cache\\15405ab8edeb959ccba6baf1c1390352f6591f55\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\WORKS\\ANDROID\\IMProApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_opportunity.xml",
+        "source": "E:\\WORKS\\ANDROID\\IMProApp\\app\\src\\main\\res\\layout\\list_item_opportunity.xml"
     },
     {
         "merged": "D:\\WORKS\\Android\\IMPro-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",

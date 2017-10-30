@@ -69,4 +69,13 @@
     <string name="hint_custAddress">Customer Address</string>
     <string name="hint_custDesc">Customer Description</string>
     <string name="btn_custAdd">Create New Customer</string>
+
+    <!--Opportunity-->
+    <string name="hint_oppName">Opportunity Name</string>
+    <string name="hint_oppCust">Customer</string>
+    <string name="hint_oppSt">Status</string>
+    <string name="hint_oppProb">Win Probability</string>
+    <string name="hint_oppStage">Sales Stage</string>
+    <string name="hint_oppDate">Due Date</string>
+    <string name="btn_oppAdd">Create New Opportunity</string>
 </resources>

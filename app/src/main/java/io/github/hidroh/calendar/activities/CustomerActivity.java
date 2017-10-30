@@ -188,6 +188,7 @@ public class CustomerActivity extends AppCompatActivity implements ListView.OnIt
         return super.onOptionsItemSelected(item);
 
     }
+
     public void keluarYN(){
         AlertDialog.Builder ad=new AlertDialog.Builder(this);
         ad.setTitle("Konfirmasi");

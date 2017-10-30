@@ -38,10 +38,10 @@ public final class R {
         public static final int bold = 0x7f0f0054;
         public static final int italic = 0x7f0f0055;
         public static final int normal = 0x7f0f0025;
-        public static final int psts_tab_title = 0x7f0f015a;
+        public static final int psts_tab_title = 0x7f0f016c;
     }
     public static final class layout {
-        public static final int psts_tab = 0x7f040063;
+        public static final int psts_tab = 0x7f040065;
     }
     public static final class styleable {
         public static final int[] PagerSlidingTabStrip = { 0x7f01015b, 0x7f01015c, 0x7f01015d, 0x7f01015e, 0x7f01015f, 0x7f010160, 0x7f010161, 0x7f010162, 0x7f010163, 0x7f010164, 0x7f010165, 0x7f010166, 0x7f010167, 0x7f010168, 0x7f010169, 0x7f01016a, 0x7f01016b, 0x7f01016c };
