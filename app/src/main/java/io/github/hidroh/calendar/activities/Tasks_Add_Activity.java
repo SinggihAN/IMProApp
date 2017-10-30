@@ -19,6 +19,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -31,6 +32,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -59,12 +61,15 @@ public class Tasks_Add_Activity extends AppCompatActivity implements View.OnClic
     //database helper object
     private DatabaseHelperTasks db;
     //View objects
-    private EditText editTextName1,editTextName6,editTextName7;
-    private Spinner spinner1,spinner2,spinner3;
+    private EditText editTextName1,editTextName7;
     private LinearLayout parent1;
     private TextView txttanggal, txtwaktu;
     private int mYear, mMonth, mDay, mHour, mMinute;
-
+    private MaterialBetterSpinner spinner1,spinner2,spinner3,spinner4;
+    String[] SPINNER_DATA = {"Canceled", "Complete", "In Progress", "Not Started", "On Hold"};
+    String[] SPINNER_DATA1 = {"Failed", "Successful", "Incomplete"};
+    String[] SPINNER_DATA2 = {"General", "In Office", "Call", "Visit", "Negotiation", "Chat"};
+    String[] SPINNER_DATA3 = {"PT GALPERTI", "PT VALCON", "PT OHTORI INDONESIA", "PT KIDS ZAMAN NOW", "PT REGNAROK", "PT MARVEL STUDIOS" , "PT MSV PICTURS"};
 
     //List to store all the names
     private List<Name> names;
@@ -88,12 +93,24 @@ public class Tasks_Add_Activity extends AppCompatActivity implements View.OnClic
         names = new ArrayList<>();
 
         editTextName1 = (EditText) findViewById(R.id.editTextName1);
-        editTextName6 = (EditText) findViewById(R.id.editTextName6);
         editTextName7 = (EditText) findViewById(R.id.editTextName7);
 
-        spinner1 = (Spinner) findViewById(R.id.spinner1);
-        spinner2 = (Spinner) findViewById(R.id.spinner2);
-        spinner3 = (Spinner) findViewById(R.id.spinner3);
+
+        spinner1 = (MaterialBetterSpinner) findViewById(R.id.spinner1);
+        ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(Tasks_Add_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA);
+        spinner1.setAdapter(adapter1);
+
+        spinner2 = (MaterialBetterSpinner) findViewById(R.id.spinner2);
+        ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(Tasks_Add_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA1);
+        spinner2.setAdapter(adapter2);
+
+        spinner3 = (MaterialBetterSpinner) findViewById(R.id.spinner3);
+        ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(Tasks_Add_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA2);
+        spinner3.setAdapter(adapter3);
+
+        spinner4 = (MaterialBetterSpinner) findViewById(R.id.spinner4);
+        ArrayAdapter<String> adapter4 = new ArrayAdapter<String>(Tasks_Add_Activity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_DATA3);
+        spinner4.setAdapter(adapter4);
 
         txttanggal = (TextView) findViewById(R.id.txttanggal);
         txtwaktu = (TextView) findViewById(R.id.txtwaktu);
@@ -130,8 +147,14 @@ public class Tasks_Add_Activity extends AppCompatActivity implements View.OnClic
     private void saveNameToLocalStorage(String id_tasks,String subject_tasks, String status_tasks, String tanggal_tasks, String waktu_tasks, String outcome_tasks, String customers_tasks, String type_tasks,String description_tasks, int status) {
 
         editTextName1.setText("");
-        editTextName6.setText("");
         editTextName7.setText("");
+
+        spinner1.setText("");
+        spinner2.setText("");
+        spinner3.setText("");
+        spinner4.setText("");
+
+
         txtwaktu.setText("");
         txttanggal.setText("");
 
@@ -156,13 +179,13 @@ public class Tasks_Add_Activity extends AppCompatActivity implements View.OnClic
 
         final String id_tasks = null;
         final String subject_tasks = editTextName1.getText().toString().trim();
-        final String status_tasks = spinner1.getSelectedItem().toString().trim();
+        final String status_tasks = spinner1.getText().toString().trim();
         final String tanggal_tasks = txttanggal.getText().toString().trim();
         final String waktu_tasks = txtwaktu.getText().toString().trim();
 
-        final String outcome_tasks = spinner2.getSelectedItem().toString().trim();
-        final String customers_tasks = editTextName6.getText().toString().trim();
-        final String type_tasks = spinner3.getSelectedItem().toString().trim();
+        final String outcome_tasks = spinner2.getText().toString().trim();
+        final String customers_tasks = spinner4.getText().toString().trim();
+        final String type_tasks = spinner3.getText().toString().trim();
         final String description_tasks = editTextName7.getText().toString().trim();
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL_SAVE_NAME,

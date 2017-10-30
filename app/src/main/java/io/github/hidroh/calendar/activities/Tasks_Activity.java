@@ -157,13 +157,6 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_task, menu);
-        return true;
-    }
-
     private void refresh(){
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -184,6 +177,13 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
         refresh();
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_task, menu);
+        return true;
+    }
+
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
@@ -196,10 +196,10 @@ public class Tasks_Activity extends AppCompatActivity implements ListView.OnItem
 //            Intent myAplikasi1 = new Intent(this,Tasks_Add_Activity.class);
 //            startActivity(myAplikasi1);
 //            return true;
-//        } else if(id == R.id.btnDraft){
-//            Intent myAplikasi3 = new Intent(this,Tasks_List_Draft_Activity.class);
-//            startActivity(myAplikasi3);
-//            return true;
+        } else if(id == R.id.btnDraft){
+            Intent myAplikasi3 = new Intent(this,Tasks_List_Draft_Activity.class);
+            startActivity(myAplikasi3);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
