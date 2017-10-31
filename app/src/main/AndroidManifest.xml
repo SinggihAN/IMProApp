@@ -116,31 +116,29 @@
             android:name=".activities.OpportunityActivity"
             android:label="@string/title_activity_opportunity"
             android:parentActivityName=".activities.HomeActivity"
-            android:theme="@style/MyMaterialTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.HomeActivity" />
-        </activity>
-
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".activities.CustomerActivity"
             android:label="Customer"
             android:parentActivityName=".activities.HomeActivity"
             android:theme="@style/AppTheme2"
             android:windowSoftInputMode="stateHidden" />
-
         <activity android:name=".activities.CustomerDraftActivity" />
-
-        <activity android:name=".activities.CustomerAddActivity"
+        <activity
+            android:name=".activities.CustomerAddActivity"
             android:label="Add Customer"
             android:parentActivityName=".activities.CustomerActivity"
-            android:theme="@style/AppTheme2"/>
-
-        <activity android:name=".activities.CustomerDetailActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activities.CustomerDetailActivity"
             android:label="Detail Customer"
             android:parentActivityName=".activities.CustomerActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".activities.OpportunityDetailActivity"
+            android:label="Detail Opportunity"
+            android:parentActivityName=".activities.OpportunityActivity"
             android:theme="@style/AppTheme2"/>
-
     </application>
 
 </manifest>
