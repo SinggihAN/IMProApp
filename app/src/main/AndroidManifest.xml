@@ -33,8 +33,9 @@
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
         <activity
@@ -42,6 +43,8 @@
             android:label=""
             android:launchMode="singleTop" />
         <activity android:name=".activities.TaskActivity" />
+
+
         <activity
             android:name=".activities.Tasks_Activity"
             android:label="Tasks"
@@ -49,9 +52,12 @@
             android:theme="@style/AppTheme2"
             android:windowSoftInputMode="stateHidden">
             <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.HomeActivity" />
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
         </activity>
+
+
+
         <activity
             android:name=".activities.Tasks_Sub_Activity"
             android:label="Display Tasks"
