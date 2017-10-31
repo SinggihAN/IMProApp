@@ -7,7 +7,7 @@ package io.github.hidroh.calendar.apps;
 
 public class AppConfig {
 
-    private static String baseUrl = "http://128.159.1.65:8000";
+    private static String baseUrl = "http://api.itechmandiri.com/";
 
     private static  String key = "?api_token=4b18260ba82c85ebe624b5caac41cc54ac40ee6f";
 

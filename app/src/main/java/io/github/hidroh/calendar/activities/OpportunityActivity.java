@@ -53,7 +53,7 @@ public class OpportunityActivity extends AppCompatActivity implements ListView.O
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OpportunityActivity.this, HomeActivity.class);
+                Intent intent = new Intent(OpportunityActivity.this, OpportunityAddActivity.class);
                 startActivity(intent);
             }
         });

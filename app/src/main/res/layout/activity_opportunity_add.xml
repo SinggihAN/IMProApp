@@ -20,24 +20,35 @@
             android:orientation="vertical" >
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/input_custName"
+                android:id="@+id/input_oppName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp">
 
                 <EditText
-                    android:id="@+id/txtCustName"
+                    android:id="@+id/txtOppName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_custName"
+                    android:hint="@string/hint_oppName"
                     android:inputType="textCapWords" />
             </android.support.design.widget.TextInputLayout>
 
             <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
-                android:id="@+id/txtCustSt"
+                android:id="@+id/txtOppCust"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_custSt"
+                android:hint="@string/hint_oppCust"
+                app:met_floatingLabel="normal"
+                android:textColorHint="#CFD8DC"
+                android:gravity="start"
+                android:layout_margin="2.5dp"
+                />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/txtOppSt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_oppSt"
                 app:met_floatingLabel="normal"
                 android:textColorHint="#CFD8DC"
                 android:gravity="start"
@@ -45,55 +56,55 @@
                 />
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/input_custPhone"
+                android:id="@+id/input_oppProb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp">
 
                 <EditText
-                    android:id="@+id/txtCustPhone"
+                    android:id="@+id/txtOppProb"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_custPhone"
+                    android:hint="@string/hint_oppProb"
                     android:inputType="phone" />
             </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/input_custAddress"
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/txtOppStage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_oppStage"
+                app:met_floatingLabel="normal"
+                android:textColorHint="#CFD8DC"
+                android:gravity="start"
+                android:layout_margin="2.5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtOppDate"
+                android:textColorHint="#CFD8DC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="18sp"
+                android:hint="@string/hint_oppDate"
+                android:gravity="start"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:background="@android:drawable/editbox_background"/>
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="10dp">
-
-                <EditText
-                    android:id="@+id/txtCustAddress"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hint_custAddress"
-                    android:inputType="textMultiLine"/>
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/input_custDesc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp">
-
-                <EditText
-                    android:id="@+id/txtCustDesc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hint_custDesc"
-                    android:inputType="textMultiLine"/>
-            </android.support.design.widget.TextInputLayout>
-
+                android:visibility="gone"
+                android:id="@+id/oppAddCust"/>
             <Button
-                android:id="@+id/btnCreateCust"
+                android:id="@+id/btnCreateOpp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/roundedbutton"
-                android:text="@string/btn_custAdd"
+                android:text="@string/btn_oppAdd"
                 android:textColor="@android:color/white"
                 android:elevation="@dimen/btn_add"
                 />
