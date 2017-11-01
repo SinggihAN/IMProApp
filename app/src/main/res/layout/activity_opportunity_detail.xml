@@ -54,6 +54,12 @@
                 android:layout_margin="2.5dp"
                 />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/oppAddCustDetail"/>
+
             <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                 android:id="@+id/txtOppStDetail"
                 android:layout_width="fill_parent"
@@ -79,20 +85,6 @@
                     android:inputType="number" />
             </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/input_oppDateDetail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp">
-
-                <EditText
-                    android:id="@+id/txtOppDateDetail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hint_oppDate"
-                    android:inputType="datetime"/>
-            </android.support.design.widget.TextInputLayout>
-
             <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                 android:id="@+id/txtOppStageDetail"
                 android:layout_width="fill_parent"
@@ -103,6 +95,19 @@
                 android:gravity="start"
                 android:layout_margin="2.5dp"
                 />
+
+            <TextView
+                android:id="@+id/txtOppDateDetail"
+                android:textColorHint="#CFD8DC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="18sp"
+                android:hint="@string/hint_oppDate"
+                android:gravity="start"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                android:background="@android:drawable/editbox_background"/>
 
             <Button
                 android:id="@+id/btnupdateOppDetail"

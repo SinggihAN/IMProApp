@@ -1,5 +1,6 @@
 package io.github.hidroh.calendar.activities;
 
+import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -8,8 +9,10 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.SimpleAdapter;
@@ -23,7 +26,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import io.github.hidroh.calendar.R;
 import io.github.hidroh.calendar.adapter.CustomerAdapter;
@@ -32,13 +38,14 @@ import io.github.hidroh.calendar.apps.RequestHandler;
 
 public class OpportunityDetailActivity extends AppCompatActivity implements View.OnClickListener {
 
-    protected EditText opp_name, opp_prob, opp_date;
+    protected EditText opp_name, opp_prob;
     private MaterialBetterSpinner opp_cust, opp_st, opp_stage;
 
     private Button btnupdateOppDetail;
     private Button btndeleteOppDetail;
 
-    protected TextView opp_id;
+    protected TextView opp_id, oppAddCust, opp_date;
+    private int mYear, mMonth, mDay, mHour, mMinute;
     protected String oppId;
 
     private MaterialBetterSpinner txtOppCustDetail, txtOppStageDetail, txtOppStDetail;
@@ -46,6 +53,7 @@ public class OpportunityDetailActivity extends AppCompatActivity implements View
     private CoordinatorLayout coordinatorLayoutDetail;
 
     private String JSON_STRING;
+    private int int_opp_id;
 
     String[] SPINNER_ST = {"Open", "Negotiation", "Closed"};
     String[] SPINNER_STAGE = {"RFQ", "Negotiation", "Closed"};
@@ -61,7 +69,14 @@ public class OpportunityDetailActivity extends AppCompatActivity implements View
         opp_id = (TextView) findViewById(R.id.txtOppIdDetail);
         opp_name = (EditText) findViewById(R.id.txtOppNameDetail);
         opp_prob = (EditText) findViewById(R.id.txtOppProbDetail);
-        opp_date = (EditText) findViewById(R.id.txtOppDateDetail);
+        opp_date = (TextView) findViewById(R.id.txtOppDateDetail);
+
+        opp_date.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getDatePicker();
+            }
+        });
 
         opp_cust = (MaterialBetterSpinner) findViewById(R.id.txtOppCustDetail);
         opp_st = (MaterialBetterSpinner) findViewById(R.id.txtOppStDetail);
@@ -76,6 +91,8 @@ public class OpportunityDetailActivity extends AppCompatActivity implements View
         opp_id.setText(oppId);
 
         getCustomer();
+
+        oppAddCust = (TextView) findViewById(R.id.oppAddCustDetail);
 
         ArrayAdapter<String> stAdapter = new ArrayAdapter<String>(OpportunityDetailActivity.this, android.R.layout.simple_dropdown_item_1line, SPINNER_ST);
         opp_st.setAdapter(stAdapter);
@@ -115,24 +132,89 @@ public class OpportunityDetailActivity extends AppCompatActivity implements View
         gj.execute();
     }
 
+    public void getDatePicker(){
+
+        Calendar c = Calendar.getInstance();
+        mYear = c.get(Calendar.YEAR);
+        mMonth = c.get(Calendar.MONTH);
+        mDay = c.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog datePickerDialog = new DatePickerDialog(this,
+                new DatePickerDialog.OnDateSetListener() {
+
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+
+                        opp_date.setText(dayOfMonth + "-" + (monthOfYear + 1) + "-" + year);
+
+                    }
+                }, mYear, mMonth, mDay);
+        datePickerDialog.show();
+    }
+
     private void showCustomers(){
         JSONObject jsonObject = null;
         ArrayList<String> cust_names = new ArrayList<String>();
+        ArrayList<String> cust_ids = new ArrayList<String>();
+        HashMap<Integer, String> mOppCust = new HashMap<Integer, String>();
         try {
             jsonObject = new JSONObject(JSON_STRING);
             JSONArray result = jsonObject.getJSONArray(AppConfig.RESULT);
 
             for(int i = 0; i<result.length(); i++){
                 JSONObject jo = result.getJSONObject(i);
+                String opp_id = jo.getString(AppConfig.CUST_ID);
                 String opp_name = jo.getString(AppConfig.CUST_NAME);
+
+                cust_ids.add(opp_id);
                 cust_names.add(opp_name);
+                try{
+                    int_opp_id = Integer.parseInt(opp_id);
+                } catch (NumberFormatException nfe) {
+
+                }
+                mOppCust.put(int_opp_id, opp_name);
             }
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        ArrayAdapter<String> custAdapter = new ArrayAdapter<String>(OpportunityDetailActivity.this, android.R.layout.simple_dropdown_item_1line, cust_names);
+        List<OpportunityDetailActivity.StringWithTag> itemList = new ArrayList<OpportunityDetailActivity.StringWithTag>();
+
+        for (Map.Entry<Integer, String> entry : mOppCust.entrySet()) {
+            Integer key = entry.getKey();
+            String value = entry.getValue();
+
+            itemList.add(new StringWithTag(value, key));
+        }
+
+        ArrayAdapter<StringWithTag> custAdapter = new ArrayAdapter<StringWithTag>(OpportunityDetailActivity.this, android.R.layout.simple_dropdown_item_1line, itemList);
         opp_cust.setAdapter(custAdapter);
+
+        opp_cust.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                StringWithTag swt = (StringWithTag) adapterView.getItemAtPosition(i);
+                Integer key = (Integer) swt.tag;
+//                doSomethingWith(mOppSt.get(key));
+                oppAddCust.setText(String.valueOf(key));
+            }
+        });
+    }
+
+    private static class StringWithTag {
+        public String string;
+        public Object tag;
+
+        public StringWithTag(String string, Object tag) {
+            this.string = string;
+            this.tag = tag;
+        }
+
+        @Override
+        public String toString() {
+            return string;
+        }
     }
 
     private void getOpportunity(){
@@ -201,7 +283,7 @@ public class OpportunityDetailActivity extends AppCompatActivity implements View
 
     public void  updateOpportunity(){
         final String oppName = opp_name.getText().toString().trim();
-//        final String oppCust = opp_cust.getText().toString().trim();
+        final String oppCust = oppAddCust.getText().toString().trim();
         final String oppSt = opp_st.getText().toString().trim();
         final String oppProb = opp_prob.getText().toString().trim();
         final String oppDate = opp_date.getText().toString().trim();
@@ -238,6 +320,7 @@ public class OpportunityDetailActivity extends AppCompatActivity implements View
             protected String doInBackground(Void... params) {
                 HashMap<String,String> hashMap = new HashMap<>();
                 hashMap.put(AppConfig.OPP_ID, oppId);
+                hashMap.put(AppConfig.CUST_ID, oppCust);
                 hashMap.put(AppConfig.OPP_NAME, oppName);
                 hashMap.put(AppConfig.OPP_ST, oppSt);
                 hashMap.put(AppConfig.OPP_PROB, oppProb);

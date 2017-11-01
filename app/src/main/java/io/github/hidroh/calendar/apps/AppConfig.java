@@ -21,7 +21,6 @@ public class AppConfig {
     // Server user register url
     public static String URL_REGISTER = "http://128.159.1.65/impro/android_login_api/register.php";
 
-
     // Customer CRUD
     public static final String URL_GET_ALL_CUST = baseUrl + "/customer" + key;
     public static final String URL_GET_CUST = baseUrl + "/customer/";

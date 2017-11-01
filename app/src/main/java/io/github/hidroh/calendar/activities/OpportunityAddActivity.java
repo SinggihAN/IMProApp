@@ -31,6 +31,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import io.github.hidroh.calendar.R;
@@ -49,7 +50,7 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
     private MaterialBetterSpinner opp_cust, opp_st, opp_stage;
 
     protected TextView opp_id, oppAddCust;
-    protected String oppId, cust_id;
+    protected String oppId;
 
     private MaterialBetterSpinner txtOppCust, txtOppStage, txtOppSt;
     private CustomerAdapter opportunityAdapter;
@@ -59,6 +60,9 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
 
     String[] SPINNER_ST = {"Open", "Negotiation", "Closed"};
     String[] SPINNER_STAGE = {"RFQ", "Negotiation", "Closed"};
+
+    private String OppStKey;
+    private int int_opp_id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,6 +99,21 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
         opp_stage.setAdapter(stageAdapter);
     }
 
+    private static class StringWithTag {
+        public String string;
+        public Object tag;
+
+        public StringWithTag(String string, Object tag) {
+            this.string = string;
+            this.tag = tag;
+        }
+
+        @Override
+        public String toString() {
+            return string;
+        }
+    }
+
     private void getCustomer(){
         class GetCustomer extends AsyncTask<Void,Void,String> {
 
@@ -128,6 +147,7 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
         JSONObject jsonObject = null;
         ArrayList<String> cust_names = new ArrayList<String>();
         ArrayList<String> cust_ids = new ArrayList<String>();
+        HashMap<Integer, String> mOppCust = new HashMap<Integer, String>();
         try {
             jsonObject = new JSONObject(JSON_STRING);
             JSONArray result = jsonObject.getJSONArray(AppConfig.RESULT);
@@ -139,26 +159,38 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
 
                 cust_ids.add(opp_id);
                 cust_names.add(opp_name);
+
+                try{
+                    int_opp_id = Integer.parseInt(opp_id);
+                } catch (NumberFormatException nfe) {
+
+                }
+                mOppCust.put(int_opp_id, opp_name);
             }
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        ArrayAdapter<String> custAdapter = new ArrayAdapter<String>(OpportunityAddActivity.this, android.R.layout.simple_dropdown_item_1line, cust_names);
+
+        List<StringWithTag> itemList = new ArrayList<StringWithTag>();
+
+        for (Map.Entry<Integer, String> entry : mOppCust.entrySet()) {
+            Integer key = entry.getKey();
+            String value = entry.getValue();
+
+            itemList.add(new StringWithTag(value, key));
+        }
+
+        ArrayAdapter<StringWithTag> custAdapter = new ArrayAdapter<StringWithTag>(OpportunityAddActivity.this, android.R.layout.simple_dropdown_item_1line, itemList);
         opp_cust.setAdapter(custAdapter);
 
-        opp_cust.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        opp_cust.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
-//                String cust_id = cust_ids.get(position);//This will be the student id.
-                cust_id = cust_ids.get(position);
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                StringWithTag swt = (StringWithTag) adapterView.getItemAtPosition(i);
+                Integer key = (Integer) swt.tag;
+                oppAddCust.setText(String.valueOf(key));
             }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parentView) {
-                // your code here
-            }
-
         });
     }
 
@@ -193,6 +225,7 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
         final String oppName = opp_name.getText().toString().trim();
         final String oppCust = "1";
         final String oppID = "";
+        final String custId = oppAddCust.getText().toString().trim();
         final String oppSt = opp_st.getText().toString().trim();
         final String oppProb = opp_prob.getText().toString().trim();
         final String oppDate = txtOppDate.getText().toString().trim();
@@ -228,7 +261,7 @@ public class OpportunityAddActivity extends AppCompatActivity implements View.On
                 Map<String, String> params = new HashMap<>();
                 params.put("opp_id", oppID);
                 params.put("opp_name", oppName);
-                params.put("cust_id", oppCust);
+                params.put("cust_id", custId);
                 params.put("opp_st", oppSt);
                 params.put("opp_stage", oppStage);
                 params.put("opp_prob", oppProb);
