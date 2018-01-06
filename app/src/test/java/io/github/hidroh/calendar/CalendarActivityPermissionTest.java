@@ -11,7 +11,7 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.util.ActivityController;
 
-import io.github.hidroh.calendar.activities.TaskActivity;
+import io.github.hidroh.calendar.activities.CalendarActivity;
 
 import static org.assertj.android.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -20,7 +20,7 @@ import static org.mockito.Mockito.verify;
 
 @SuppressWarnings("ConstantConditions")
 @RunWith(RobolectricGradleTestRunner.class)
-public class TaskActivityPermissionTest {
+public class CalendarActivityPermissionTest {
     private ActivityController<TestMainActivity> controller;
     private TestMainActivity activity;
 
@@ -73,7 +73,7 @@ public class TaskActivityPermissionTest {
     }
 
     @SuppressLint("Registered")
-    static class TestMainActivity extends TaskActivity {
+    static class TestMainActivity extends CalendarActivity {
         boolean permissionCheckResult = false;
         final PermissionRequester permissionRequester = mock(PermissionRequester.class);
 

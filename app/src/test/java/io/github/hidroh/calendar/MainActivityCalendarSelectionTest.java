@@ -27,7 +27,7 @@ import org.robolectric.util.ActivityController;
 import java.util.Arrays;
 import java.util.List;
 
-import io.github.hidroh.calendar.activities.TaskActivity;
+import io.github.hidroh.calendar.activities.CalendarActivity;
 import io.github.hidroh.calendar.contents.CalendarCursor;
 import io.github.hidroh.calendar.utilities.CalendarUtils;
 import io.github.hidroh.calendar.widget.CalendarSelectionView;
@@ -146,7 +146,7 @@ public class MainActivityCalendarSelectionTest {
     }
 
     @SuppressLint("Registered")
-    static class TestMainActivity extends TaskActivity {
+    static class TestMainActivity extends CalendarActivity {
         @Override
         protected boolean checkCalendarPermissions() {
             return true;

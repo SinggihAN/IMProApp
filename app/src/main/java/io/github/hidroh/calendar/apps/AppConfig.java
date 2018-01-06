@@ -15,6 +15,12 @@ public class AppConfig {
     public static final String SUCCESS = "success";
     public static final String RESULT="result";
 
+    //1 means data is synced and 0 means data is not synced
+    public static final int DATA_SYNCED_WITH_SERVER = 1;
+    public static final int DATA_NOT_SYNCED_WITH_SERVER = 0;
+    //a broadcast to know weather the data is synced or not
+    public static final String DATA_SAVED_BROADCAST = "Data Saved";
+
     // Server user login url
     public static String URL_LOGIN = "http://128.159.1.65/impro/android_login_api/login.php";
 
@@ -37,17 +43,13 @@ public class AppConfig {
     public static final String URL_DELETE_OPP = baseUrl + "/opportunity/delete/";
 
 
-    //Define Key for Task
-    public static final String KEY_EMP_ID_TASKS = "id";
-    public static final String KEY_EMP_SUBJECT_TASKS = "subject_tasks";
-    public static final String KEY_EMP_STATUS_TASKS = "status_tasks";
-    public static final String KEY_EMP_TANGGAL_TASKS = "tanggal_tasks";
-
-    public static final String KEY_EMP_WAKTU_TASKS = "waktu_tasks";
-    public static final String KEY_EMP_OUTCOME_TASKS = "outcome_tasks";
-    public static final String KEY_EMP_CUSTOMERS_TASKS = "customers_tasks";
-    public static final String KEY_EMP_TYPE_TASKS = "type_tasks";
-    public static final String KEY_EMP_DESCRIPTION_TASKS = "description_tasks";
+    //Task CRUD
+    public static final String URL_GET_ALL_TASK = baseUrl + "/task" + key;
+    public static final String URL_GET_TASK = baseUrl + "/task/";
+    public static final String URL_SAVE_TASK = baseUrl + "/task/create" + key;
+    public static final String URL_UPDATE_TASK = baseUrl + "/task/update/";
+    public static final String URL_DELETE_TASK = baseUrl + "/task/delete/";
+    public static final String URL_GET_TASK_NAME = baseUrl + "/list/task" + key;
 
 
     //JSON Tags for Customer

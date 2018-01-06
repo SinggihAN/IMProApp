@@ -30,7 +30,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 
 import io.github.hidroh.calendar.activities.EditActivity;
-import io.github.hidroh.calendar.activities.TaskActivity;
+import io.github.hidroh.calendar.activities.CalendarActivity;
 import io.github.hidroh.calendar.contents.EventCursor;
 import io.github.hidroh.calendar.test.shadows.ShadowLinearLayoutManager;
 import io.github.hidroh.calendar.test.shadows.ShadowRecyclerView;
@@ -47,9 +47,9 @@ import static org.robolectric.Shadows.shadowOf;
 @SuppressWarnings("unchecked")
 @Config(shadows = {ShadowViewPager.class, ShadowRecyclerView.class, ShadowLinearLayoutManager.class})
 @RunWith(RobolectricGradleTestRunner.class)
-public class TaskActivityTest {
+public class CalendarActivityTest {
     private ActivityController<TestMainActivity> controller;
-    private TaskActivity activity;
+    private CalendarActivity activity;
     private CheckedTextView toggle;
     private View toggleButton;
     private EventCalendarView calendarView;
@@ -214,7 +214,7 @@ public class TaskActivityTest {
         agendaView.getAdapter().bindViewHolder(agendaView.getAdapter()
                 .createViewHolder(agendaView, agendaView.getAdapter().
                         getItemViewType(firstPosition)), firstPosition);
-        ((TaskActivity.AgendaCursorAdapter) agendaView.getAdapter())
+        ((CalendarActivity.AgendaCursorAdapter) agendaView.getAdapter())
                 .mHandler.handleQueryComplete(0, CalendarUtils.today(), new EventCursor(cursor));
 
         // binding from provider should replace placeholder
@@ -266,7 +266,7 @@ public class TaskActivityTest {
     }
 
     @SuppressLint("Registered")
-    static class TestMainActivity extends TaskActivity {
+    static class TestMainActivity extends CalendarActivity {
         @Override
         protected boolean checkCalendarPermissions() {
             return true;

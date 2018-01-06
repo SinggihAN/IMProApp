@@ -28,7 +28,7 @@ import org.robolectric.util.ActivityController;
 import java.util.Arrays;
 
 import io.github.hidroh.calendar.activities.EditActivity;
-import io.github.hidroh.calendar.activities.TaskActivity;
+import io.github.hidroh.calendar.activities.CalendarActivity;
 import io.github.hidroh.calendar.contents.CalendarCursor;
 import io.github.hidroh.calendar.utilities.CalendarUtils;
 import io.github.hidroh.calendar.widget.EventEditView;
@@ -63,7 +63,7 @@ public class EditActivityTest {
         ResolveInfo resolveInfo = new ResolveInfo();
         resolveInfo.activityInfo = new ActivityInfo();
         resolveInfo.activityInfo.packageName = activity.getPackageName();
-        resolveInfo.activityInfo.name = TaskActivity.class.getName();
+        resolveInfo.activityInfo.name = CalendarActivity.class.getName();
         RuntimeEnvironment.getRobolectricPackageManager()
                 .addResolveInfoForIntent(new Intent(Intent.ACTION_MAIN)
                         .setPackage(activity.getPackageName())
@@ -72,7 +72,7 @@ public class EditActivityTest {
         controller.create();
         assertThat(activity).isFinishing();
         assertThat(shadowOf(activity).getNextStartedActivity())
-                .hasComponent(activity, TaskActivity.class);
+                .hasComponent(activity, CalendarActivity.class);
     }
 
     @Test

@@ -15,7 +15,7 @@ import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.annotation.Config;
 import org.robolectric.util.ActivityController;
 
-import io.github.hidroh.calendar.activities.TaskActivity;
+import io.github.hidroh.calendar.activities.CalendarActivity;
 import io.github.hidroh.calendar.test.shadows.ShadowLinearLayoutManager;
 import io.github.hidroh.calendar.test.shadows.ShadowRecyclerView;
 import io.github.hidroh.calendar.weather.WeatherSyncService;
@@ -152,7 +152,7 @@ public class MainActivityWeatherTest {
     }
 
     @SuppressLint("Registered")
-    static class TestMainActivity extends TaskActivity {
+    static class TestMainActivity extends CalendarActivity {
         boolean permissionCheckResult = false;
         final PermissionRequester permissionRequester = mock(PermissionRequester.class);
 

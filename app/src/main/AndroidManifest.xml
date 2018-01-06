@@ -44,7 +44,7 @@
             android:name=".activities.HomeActivity"
             android:label=""
             android:launchMode="singleTop" />
-        <activity android:name=".activities.TaskActivity" />
+        <activity android:name=".activities.CalendarActivity" />
         <activity
             android:name=".activities.Tasks_Activity"
             android:label="Tasks"
@@ -137,10 +137,12 @@
             android:label="Detail Opportunity"
             android:parentActivityName=".activities.OpportunityActivity"
             android:theme="@style/AppTheme2" />
-        <activity android:name=".activities.OpportunityAddActivity"
+        <activity
+            android:name=".activities.OpportunityAddActivity"
             android:label="Add Opportunity"
             android:parentActivityName=".activities.OpportunityActivity"
             android:theme="@style/AppTheme2" />
+        <activity android:name=".activities.TaskActivity"></activity>
     </application>
 
 </manifest>
